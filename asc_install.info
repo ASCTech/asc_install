@@ -2,7 +2,6 @@ name = ASC Install
 description = Install for ASC Standard sites.
 version = VERSION
 core = 7.x
-dependencies[] = admin_menu
 dependencies[] = block
 dependencies[] = block_titlelink
 dependencies[] = calendar
