@@ -2,7 +2,8 @@ core = 7.x
 api = 2
 
 ; Contrib
-projects[] = "block_titlelink"
+projects[block_titlelink][subdir] = "block_titlelink"
+
 projects[calendar][type] = "module"
 projects[] = "captcha"
 projects[] = "coder"
@@ -47,7 +48,7 @@ projects[] = "token"
 projects[] = "views"
 projects[] = "views_slideshow"
 projects[] = "widgets"
-projects[] = "wysiwyg"
+;projects[] = "wysiwyg"
 projects[] = "xmlsitemap"
 
 ;Custom
