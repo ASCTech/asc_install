@@ -5,6 +5,8 @@ api = 2
 projects[block_titlelink][subdir] = "block_titlelink"
 
 projects[calendar][type] = "module"
+projects[calendar][subdir] = "module"
+
 projects[] = "captcha"
 projects[] = "coder"
 projects[] = "config_perms"
@@ -73,6 +75,7 @@ libraries[jquery_ui][destination] = "libraries"
 ;Themes
 
 projects[q7][type] = "theme"
+projects[q7][subdir] = "themes"
 projects[q7][download][type] = "git"
 projects[q7][download][url] = "git@github.com:ASCTech/q7.git"
 
