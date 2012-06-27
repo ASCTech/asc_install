@@ -11,8 +11,10 @@ projects[block_titlelink][subdir] = "contrib"
 projects[calendar][type] = "module"
 projects[calendar][subdir] = "contrib"
 
-;projects[] = "captcha"
-;projects[] = "coder"
+projects[captcha][subdir] = "contrib"
+
+projects[coder][subdir] = "contrib"
+
 ;projects[] = "config_perms"
 ;projects[] = "context"
 ;projects[] = "ctools"
@@ -68,6 +70,12 @@ projects[asc_news][subdir] = "features"
 projects[asc_news][download][type] = "git"
 projects[asc_news][download][url] = "git@github.com:ASCTech/asc_news.git"
 projects[asc_news][download][branch] = "7.x-1.0"
+
+projects[asc_image_handling][type] = "module"
+projects[asc_image_handling][subdir] = "features"
+projects[asc_image_handling][news][download][type] = "git"
+projects[asc_image_handling][download][url] = "git@github.com:ASCTech/asc_image_handling.git"
+projects[asc_image_handling][download][branch] = "7.x-1.0"
 
 ;Themes
 ;projects[omega][type] = "theme"
