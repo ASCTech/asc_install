@@ -8,6 +8,13 @@
 function asc_install() {
   include_once DRUPAL_ROOT . '/profiles/minimal/minimal.install';
   minimal_install();
+
+
+  // Update admin username and e-mail.
+  db_insert('users')
+    ->fields(array('name' => 'ascoverseer','mail' => 'asctech@osu.edu'))
+    ->condition('uid', '1')
+    ->execute();
 }
 
 
@@ -23,6 +30,6 @@ function asc_profile_modules() {
     'block',
 
     //Custom Features
-    'asc_news',
+    'asc_image_handling', 'asc_news'
   );
 }
