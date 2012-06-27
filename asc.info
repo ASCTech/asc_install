@@ -1,5 +1,5 @@
-name = ASC Install
-description = Install for ASC Standard sites.
+name = ASC
+description = Profile for ASC Standard sites.
 version = VERSION
 core = 7.x
 dependencies[] = block

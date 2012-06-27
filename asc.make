@@ -1,11 +1,15 @@
 core = 7.x
 api = 2
 
+projects[pressflow][type] = "core"
+projects[pressflow][download][type] = "git"
+projects[pressflow][download][url] = "https://github.com/pressflow/7.git"
+
 ; Contrib
-projects[block_titlelink][subdir] = "block_titlelink"
+projects[block_titlelink][subdir] = "contrib"
 
 projects[calendar][type] = "module"
-projects[calendar][subdir] = "module"
+projects[calendar][subdir] = "contrib"
 
 ;projects[] = "captcha"
 ;projects[] = "coder"
@@ -42,8 +46,13 @@ projects[calendar][subdir] = "module"
 ;projects[] = "piwik"
 ;projects[] = "recaptcha"
 ;projects[] = "search404"
-;projects[shib_auth][type] = "module"
-;projects[shib_provision][type] = "module"
+
+projects[shib_auth][type] = "module"
+projects[shib_auth][subdir] = "contrib"
+
+projects[shib_provision][type] = "module"
+projects[shib_provision][subdir] = "contrib"
+
 ;projects[] = "socialmedia"
 ;projects[] = "strongarm"
 ;projects[] = "token"
@@ -54,6 +63,11 @@ projects[calendar][subdir] = "module"
 ;projects[] = "xmlsitemap"
 
 ;Custom
+projects[asc_news][type] = "module"
+projects[asc_news][subdir] = "features"
+projects[asc_news][download][type] = "git"
+projects[asc_news][download][url] = "git@github.com:ASCTech/asc_news.git"
+projects[asc_news][download][branch] = "7.x-1.0"
 
 ;Themes
 ;projects[omega][type] = "theme"
@@ -66,17 +80,15 @@ libraries[jquery_ui][directory_name] = "jquery.ui"
 libraries[jquery_ui][destination] = "libraries"
 
 ; CKEditor
-;libraries[ckeditor][download][type]= "get"
-;libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.4/ckeditor_3.4.zip"
-;libraries[ckeditor][directory_name] = "ckeditor"
-;libraries[ckeditor][destination] = "libraries"
-
+libraries[ckeditor][download][type]= "get"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.4/ckeditor_3.4.zip"
+libraries[ckeditor][directory_name] = "ckeditor"
+libraries[ckeditor][destination] = "libraries"
 
 ;Themes
 
-;projects[q7][type] = "theme"
-;projects[q7][subdir] = "themes"
-;projects[q7][download][type] = "git"
-;projects[q7][download][url] = "git@github.com:ASCTech/q7.git"
+projects[q7][type] = "theme"
+projects[q7][download][type] = "git"
+projects[q7][download][url] = "git@github.com:ASCTech/q7.git"
 
 ; Contrib Patches

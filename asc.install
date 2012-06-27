@@ -1,0 +1,28 @@
+<?php
+
+/**
+ * Implements hook_install().
+ *
+ * Perform actions to set up the site for this profile.
+ */
+function asc_install() {
+  include_once DRUPAL_ROOT . '/profiles/minimal/minimal.install';
+  minimal_install();
+}
+
+
+/** 
+ * Return an array of modules to be enabled when profile is installed.
+ * 
+ * @return 
+ *  An array of modules to be enabled.
+ * 
+ */
+function asc_profile_modules() {
+  return array(
+    'block',
+
+    //Custom Features
+    'asc_news',
+  );
+}
