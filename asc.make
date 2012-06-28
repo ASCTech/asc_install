@@ -35,13 +35,11 @@ projects[date][subdir] = "contrib"
 
 projects[features][subdir] = "contrib"
 
-projects[filefield][subdir] = "contrib"
-
 projects[file_entity][subdir] = "contrib"
-projects[file_entity][version] = "7.x-2.0-unstable5"
+projects[file_entity][version] = "2.0-unstable5"
 
-projects[gallery_formatter][subdir] = "contrib"
-projects[gallery_formatter][version] = "7.x-1.0-dev"
+projects[galleryformatter][subdir] = "contrib"
+projects[galleryformatter][version] = "1.x-dev"
 
 projects[google_analytics][subdir] = "contrib"
 
@@ -57,7 +55,7 @@ projects[jquery_update][subdir] = "contrib"
 
 projects[libraries][subdir] = "contrib"
 
-projects[lightbox][subdir] = "contrib"
+projects[lightbox2][subdir] = "contrib"
 
 projects[link][subdir] = "contrib"
 
@@ -66,7 +64,7 @@ projects[linkchecker][subdir] = "contrib"
 projects[masquerade][subdir] = "contrib"
 
 projects[media][subdir] = "contrib"
-projects[media][version] = "7.x-2.0-unstable5"
+projects[media][version] = "2.0-unstable5"
 
 projects[menu_block][subdir] = "contrib"
 
@@ -123,11 +121,11 @@ projects[asc_image_handling][news][download][type] = "git"
 projects[asc_image_handling][download][url] = "git@github.com:ASCTech/asc_image_handling.git"
 projects[asc_image_handling][download][branch] = "7.x-1.0"
 
-projects[gallery_formatter_advance][type] = "module"
-projects[gallery_formatter_advance][subdir] = "custom"
-projects[gallery_formatter_advance][download][type] = "git"
-projects[gallery_formatter_advance][download][type] = "git@github.com:ASCTech/galleryformatter_advance.git"
-projects[gallery_formatter_advance][download][branch] = "7.x-1.0"
+projects[galleryformatter_advance][type] = "module"
+projects[galleryformatter_advance][subdir] = "custom"
+projects[galleryformatter_advance][download][type] = "git"
+projects[galleryformatter_advance][download][type] = "git@github.com:ASCTech/galleryformatter_advance.git"
+projects[galleryformatter_advance][download][branch] = "7.x-1.0"
 
 ;Themes
 projects[omega][type] = "theme"
@@ -150,3 +148,4 @@ libraries[ckeditor][destination] = "libraries"
 projects[q7][type] = "theme"
 projects[q7][download][type] = "git"
 projects[q7][download][url] = "git@github.com:ASCTech/q7.git"
+
