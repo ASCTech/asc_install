@@ -15,39 +15,80 @@ projects[captcha][subdir] = "contrib"
 
 projects[coder][subdir] = "contrib"
 
-;projects[] = "config_perms"
-;projects[] = "context"
-;projects[] = "ctools"
-;projects[custom_breadcrumbs][type] = "module"
-;projects[custom_formatters][type] = "module"
-;projects[] = "date"
-;projects[] = "devel"
-;projects[] = "delta"
-;projects[] = "email"
-;projects[] = "features"
-;projects[] = "filefield"
-;projects[] = "google_analytics"
-;projects[] = "imagefield_crop"
-;projects[] = "image_resize_filter"
-;projects[] = "jquery_plugin"
-;projects[] = "jquery_ui"
-;projects[] = "jquery_update"
-;projects[] = "libraries"
-;projects[] = "link"
-;projects[] = "linkchecker"
-;projects[] = "logintoboggan"
-;projects[] = "masquerade"
-;projects[] = "menu_block"
-;projects[] = "menu_breadcrumb"
-;projects[] = "migrate"
-;projects[] = "node_clone"
-;projects[] = "omega_tools"
-;projects[] = "pathauto"
-;projects[] = "performance"
-;projects[] = "phone"
-;projects[] = "piwik"
-;projects[] = "recaptcha"
-;projects[] = "search404"
+projects[config_perms][subdir] = "contrib"
+
+projects[context][subdir] = "contrib"
+
+projects[ctools][subdir] = "contrib"
+
+projects[custom_breadcrumbs][subdir] = "module"
+
+projects[custom_formatters][type] = "module"
+
+projects[devel][subdir] = "contrib"
+
+projects[delta][subdir] = "contrib"
+
+projects[email][subdir] = "contrib"
+
+projects[date][subdir] = "contrib"
+
+projects[features][subdir] = "contrib"
+
+projects[filefield][subdir] = "contrib"
+
+projects[file_entity][subdir] = "contrib"
+projects[file_entity][version] = "7.x-2.0-unstable5"
+
+projects[gallery_formatter][subdir] = "contrib"
+projects[gallery_formatter][version] = "7.x-1.0"
+
+projects[google_analytics][subdir] = "contrib"
+
+projects[imagefield_crop][subdir] = "contrib"
+
+projects[date][subdir] = "contrib"
+
+projects[jquery_plugin][subdir] = "contrib"
+
+projects[jquery_ui][subdir] = "contrib"
+
+projects[jquery_update][subdir] = "contrib"
+
+projects[libraries][subdir] = "contrib"
+
+projects[lightbox][subdir] = "contrib"
+
+projects[link][subdir] = "contrib"
+
+projects[linkchecker][subdir] = "contrib"
+
+projects[masquerade][subdir] = "contrib"
+
+projects[media][subdir] = "contrib"
+projects[media][version] = "7.x-2.0-unstable5"
+
+projects[menu_block][subdir] = "contrib"
+
+projects[menu_breadcrumb][subdir] = "contrib"
+
+projects[migrate][subdir] = "contrib"
+
+projects[node_clone][subdir] = "contrib"
+
+projects[omega_tools][subdir] = "contrib"
+
+projects[pathauto][subdir] = "contrib"
+
+projects[performance][subdir] = "contrib"
+
+projects[phone][subdir] = "contrib"
+
+projects[piwik][subdir] = "contrib"
+
+projects[recaptcha][subdir] = "contrib"
+
+projects[search404][subdir] = "contrib"
 
 projects[shib_auth][type] = "module"
 projects[shib_auth][subdir] = "contrib"
@@ -55,14 +96,19 @@ projects[shib_auth][subdir] = "contrib"
 projects[shib_provision][type] = "module"
 projects[shib_provision][subdir] = "contrib"
 
-;projects[] = "socialmedia"
-;projects[] = "strongarm"
-;projects[] = "token"
-;projects[] = "views"
-;projects[] = "views_slideshow"
-;projects[] = "widgets"
-;projects[] = "wysiwyg"
-;projects[] = "xmlsitemap"
+projects[socialmedia][subdir] = "contrib"
+
+projects[strongarm][subdir] = "contrib"
+
+projects[token][subdir] = "contrib"
+
+projects[views][subdir] = "contrib"
+
+projects[widgets][subdir] = "contrib"
+
+projects[wysiwyg][subdir] = "contrib"
+
+projects[xmlsitemap][subdir] = "contrib"
 
 ;Custom
 projects[asc_news][type] = "module"
@@ -77,8 +123,14 @@ projects[asc_image_handling][news][download][type] = "git"
 projects[asc_image_handling][download][url] = "git@github.com:ASCTech/asc_image_handling.git"
 projects[asc_image_handling][download][branch] = "7.x-1.0"
 
+projects[gallery_formatter_advance][type] = "module"
+projects[gallery_formatter_advance][subdir] = "custom"
+projects[gallery_formatter_advance][download][type] = "git"
+projects[gallery_formatter_advance][download][type] = "git@github.com:ASCTech/gallery_formatter_advance.git"
+projects[gallery_formatter_advance][download][branch] = "7.x-1.0"
+
 ;Themes
-;projects[omega][type] = "theme"
+projects[omega][type] = "theme"
 
 ;Libraries
 ; jQuery UI
@@ -98,5 +150,3 @@ libraries[ckeditor][destination] = "libraries"
 projects[q7][type] = "theme"
 projects[q7][download][type] = "git"
 projects[q7][download][url] = "git@github.com:ASCTech/q7.git"
-
-; Contrib Patches
