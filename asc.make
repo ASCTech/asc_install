@@ -41,7 +41,7 @@ projects[file_entity][subdir] = "contrib"
 projects[file_entity][version] = "7.x-2.0-unstable5"
 
 projects[gallery_formatter][subdir] = "contrib"
-projects[gallery_formatter][version] = "7.x-1.0"
+projects[gallery_formatter][version] = "7.x-1.0-dev"
 
 projects[google_analytics][subdir] = "contrib"
 
@@ -126,7 +126,7 @@ projects[asc_image_handling][download][branch] = "7.x-1.0"
 projects[gallery_formatter_advance][type] = "module"
 projects[gallery_formatter_advance][subdir] = "custom"
 projects[gallery_formatter_advance][download][type] = "git"
-projects[gallery_formatter_advance][download][type] = "git@github.com:ASCTech/gallery_formatter_advance.git"
+projects[gallery_formatter_advance][download][type] = "git@github.com:ASCTech/galleryformatter_advance.git"
 projects[gallery_formatter_advance][download][branch] = "7.x-1.0"
 
 ;Themes
