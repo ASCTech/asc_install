@@ -45,7 +45,7 @@ projects[google_analytics][subdir] = "contrib"
 
 projects[imagefield_crop][subdir] = "contrib"
 
-projects[date][subdir] = "contrib"
+;projects[date][subdir] = "contrib"
 
 projects[jquery_plugin][subdir] = "contrib"
 
