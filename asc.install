@@ -11,7 +11,7 @@ function asc_install() {
 
 
   // Update admin username and e-mail.
-  db_insert('users')
+  db_update('users')
     ->fields(array('name' => 'ascoverseer','mail' => 'asctech@osu.edu'))
     ->condition('uid', '1')
     ->execute();
