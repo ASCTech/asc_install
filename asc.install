@@ -9,7 +9,6 @@ function asc_install() {
   include_once DRUPAL_ROOT . '/profiles/minimal/minimal.install';
   minimal_install();
 
-
   // Update admin username and e-mail.
   db_update('users')
     ->fields(array('name' => 'ascoverseer','mail' => 'asctech@osu.edu'))
@@ -17,28 +16,5 @@ function asc_install() {
     ->execute();
 }
 
-/**
- * 
- */
-function asc_setup_config() {
-  $disable = array(
-    'toolbar',
-    'dblog',
-  );
-  module_disable($disable,TRUE);
-}
 
 
-/** 
- * Return an array of modules to be enabled when profile is installed.
- * 
- * @return 
- *  An array of modules to be enabled.
- * 
- */
-function asc_profile_modules() {
-  return array(
-    'block',
-
-  );
-}
