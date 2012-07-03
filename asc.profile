@@ -1,8 +1,13 @@
 <?php
 
+/**
+ * @file
+ * Install profile for College of Arts and Sciences.
+ */
+
 
 /**
- * Implementation of hook_profile_details().
+ * Implements hook_profile_details().
  */
 function asc_profile_details() {
   return array(
