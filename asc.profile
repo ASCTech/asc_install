@@ -10,28 +10,3 @@ function asc_profile_details() {
     'description' => 'Arts and Sites Installer',
   );
 }
-
-/** 
- * Return an array of modules to be enabled when profile is installed.
- * 
- * @return 
- *  An array of modules to be enabled.
- * 
- */
-function asc_profile_modules() {
-  return array(
-    'block',
-    'syslog',
-  );
-}
-
-/**
- * 
- */
-function asc_setup_config() {
-  $disable = array(
-    'toolbar',
-    'dblog',
-  );
-  module_disable($disable,TRUE);
-}

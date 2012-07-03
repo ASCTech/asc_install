@@ -5,16 +5,27 @@
  *
  * Perform actions to set up the site for this profile.
  */
+
+
 function asc_install() {
   include_once DRUPAL_ROOT . '/profiles/minimal/minimal.install';
+  minimal_install();
+
+
+ // List of Modules to disable.
   $disable = array(
     'toolbar',
     'dblog',
-  
-);
+    'overlay',
+  );
   module_disable($disable,TRUE);
 
-  minimal_install();
+  // Setup default themes, disable others.
+  variable_set("theme_default", "q7");
+  variable_set("admin_theme", "rubik");
+  variable_set("node_admin_theme", '1');
+  theme_enable(array("q7"));
+  theme_disable(array("bartik"));
 
   // Update admin username and e-mail.
   db_update('users')
