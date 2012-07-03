@@ -16,7 +16,7 @@ projects[calendar][subdir] = "contrib"
 
 projects[captcha][subdir] = "contrib"
 
-projects[coder][subdir] = "contrib"
+projects[] = "coder"
 
 ; Throwing a lot of errors, disabled for now.
 ; projects[config_perms][subdir] = "contrib"
@@ -57,7 +57,7 @@ projects[jquery_ui][subdir] = "contrib"
 
 projects[jquery_update][subdir] = "contrib"
 
-projects[libraries][subdir] = "contrib"
+projects[] = libraries
 
 projects[lightbox2][subdir] = "contrib"
 
@@ -102,7 +102,7 @@ projects[socialmedia][subdir] = "contrib"
 
 projects[strongarm][subdir] = "contrib"
 
-projects[token][subdir] = "contrib"
+projects[] = "token"
 
 projects[views][subdir] = "contrib"
 
