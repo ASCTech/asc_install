@@ -6,6 +6,9 @@ projects[pressflow][download][type] = "git"
 projects[pressflow][download][url] = "https://github.com/pressflow/7.git"
 
 ; Contrib
+
+projects[admin][subdir] = "contrib"
+
 projects[block_titlelink][subdir] = "contrib"
 
 projects[calendar][type] = "module"

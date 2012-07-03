@@ -17,6 +17,16 @@ function asc_install() {
     ->execute();
 }
 
+/**
+ * 
+ */
+function asc_setup_config() {
+  $disable = array(
+    'toolbar',
+  );
+  module_disable($disable,TRUE);
+}
+
 
 /** 
  * Return an array of modules to be enabled when profile is installed.
@@ -29,7 +39,5 @@ function asc_profile_modules() {
   return array(
     'block',
 
-    //Custom Features
-    'asc_image_handling', 'asc_news'
   );
 }
