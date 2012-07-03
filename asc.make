@@ -29,7 +29,7 @@ projects[custom_breadcrumbs][subdir] = "module"
 
 projects[custom_formatters][type] = "module"
 
-projects[devel][subdir] = "contrib"
+projects[] = "devel"
 
 projects[delta][subdir] = "contrib"
 
