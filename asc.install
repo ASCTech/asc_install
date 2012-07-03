@@ -7,6 +7,16 @@
  */
 function asc_install() {
   include_once DRUPAL_ROOT . '/profiles/minimal/minimal.install';
+  $disable = array(
+    'toolbar',
+    'dblog',
+  
+);
+  module_disable($disable,TRUE);
+
+}
+  
+
   minimal_install();
 
   // Update admin username and e-mail.
