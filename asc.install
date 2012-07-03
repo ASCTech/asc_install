@@ -23,6 +23,7 @@ function asc_install() {
 function asc_setup_config() {
   $disable = array(
     'toolbar',
+    'dblog',
   );
   module_disable($disable,TRUE);
 }

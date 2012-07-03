@@ -18,7 +18,8 @@ projects[captcha][subdir] = "contrib"
 
 projects[coder][subdir] = "contrib"
 
-projects[config_perms][subdir] = "contrib"
+; Throwing a lot of errors, disabled for now.
+; projects[config_perms][subdir] = "contrib"
 
 projects[context][subdir] = "contrib"
 
