@@ -23,7 +23,7 @@ projects[coder][subdir] = "contrib"
 
 projects[context][subdir] = "contrib"
 
-projects[ctools][subdir] = "contrib"
+projects[] = "ctools"
 
 projects[custom_breadcrumbs][subdir] = "module"
 
