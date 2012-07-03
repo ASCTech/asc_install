@@ -14,9 +14,6 @@ function asc_install() {
 );
   module_disable($disable,TRUE);
 
-}
-  
-
   minimal_install();
 
   // Update admin username and e-mail.
