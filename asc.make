@@ -36,10 +36,12 @@ projects[date][subdir] = "contrib"
 projects[features][subdir] = "contrib"
 
 projects[file_entity][subdir] = "contrib"
-projects[file_entity][version] = "2.0-unstable5"
+projects[file_entity][version] = "2.0-unstable6"
 
 projects[galleryformatter][subdir] = "contrib"
 projects[galleryformatter][version] = "1.x-dev"
+
+projects[gmap][subdir] = "contrib"
 
 projects[google_analytics][subdir] = "contrib"
 
@@ -53,7 +55,7 @@ projects[jquery_ui][subdir] = "contrib"
 
 projects[jquery_update][subdir] = "contrib"
 
-projects[] = libraries
+projects[libraries][subdir] = "contrib"
 
 projects[lightbox2][subdir] = "contrib"
 
@@ -61,10 +63,14 @@ projects[link][subdir] = "contrib"
 
 projects[linkchecker][subdir] = "contrib"
 
+projects[location][subdir] = "contrib"
+
 projects[masquerade][subdir] = "contrib"
 
 projects[media][subdir] = "contrib"
-projects[media][version] = "2.0-unstable5"
+projects[media][version] = "2.0-unstable6"
+;Redirect to node event form.
+projects[media][patch][] = "http://drupal.org/files/1426730-edit-file-in-browser-43.patch"
 
 projects[menu_block][subdir] = "contrib"
 
@@ -98,7 +104,10 @@ projects[socialmedia][subdir] = "contrib"
 
 projects[strongarm][subdir] = "contrib"
 
-projects[] = "token"
+projects[token] = "token"
+
+projects[tvi][subdir] = "contrib"
+projects[tvi][patch][] = "http://drupal.org/files/tvi-get_term_info-1547340-2_0.patch"
 
 projects[views][subdir] = "contrib"
 
@@ -112,14 +121,26 @@ projects[xmlsitemap][subdir] = "contrib"
 projects[asc_news][type] = "module"
 projects[asc_news][subdir] = "features"
 projects[asc_news][download][type] = "git"
-projects[asc_news][download][url] = "git@github.com:ASCTech/asc_news.git"
+projects[asc_news][download][url] = "git@github.com:asctech/asc_news.git"
 projects[asc_news][download][branch] = "7.x-1.0"
 
-projects[asc_image_handling][type] = "module"
-projects[asc_image_handling][subdir] = "features"
-projects[asc_image_handling][news][download][type] = "git"
-projects[asc_image_handling][download][url] = "git@github.com:ASCTech/asc_image_handling.git"
-projects[asc_image_handling][download][branch] = "7.x-1.0"
+projects[asc_events][type] = "module"
+projects[asc_events][subdir] = "features"
+projects[asc_events][download][type] = "git"
+projects[asc_events][download][url] = "git@github.com:asctech/asc_events.git"
+projects[asc_events][download][branch] = "7.x-1.0"
+
+;projects[asc_image_handling][type] = "module"
+;projects[asc_image_handling][subdir] = "features"
+;projects[asc_image_handling][news][download][type] = "git"
+;projects[asc_image_handling][download][url] = "git@github.com:ASCTech/asc_image_handling.git"
+;projects[asc_image_handling][download][branch] = "7.x-1.0"
+
+projects[dosu_edit][type] = "module"
+projects[dosu_edit][subdir] = "features"
+projects[dosu_edit][news][download][type] = "git"
+projects[dosu_edit][download][url] = "http://code.web.engadmin.ohio-state.edu/dosu_platform.git"
+projects[dosu_edit][download][branch] = "7.x-1.x"
 
 projects[galleryformatter_advance][type] = "module"
 projects[galleryformatter_advance][subdir] = "custom"
@@ -144,7 +165,6 @@ libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
 
 ;Themes
-
 projects[q7][type] = "theme"
 projects[q7][download][type] = "git"
 projects[q7][download][url] = "git@github.com:ASCTech/q7.git"
