@@ -121,31 +121,31 @@ projects[xmlsitemap][subdir] = "contrib"
 projects[asc_news][type] = "module"
 projects[asc_news][subdir] = "features"
 projects[asc_news][download][type] = "git"
-projects[asc_news][download][url] = "git@github.com:asctech/asc_news.git"
+projects[asc_news][download][url] = "http://github.com/asctech/asc_news.git"
 projects[asc_news][download][branch] = "7.x-1.0"
 
 projects[asc_events][type] = "module"
 projects[asc_events][subdir] = "features"
 projects[asc_events][download][type] = "git"
-projects[asc_events][download][url] = "git@github.com:asctech/asc_events.git"
+projects[asc_events][download][url] = "https://github.com/ASCTech/asc_events.git"
 projects[asc_events][download][branch] = "7.x-1.0"
 
 ;projects[asc_image_handling][type] = "module"
 ;projects[asc_image_handling][subdir] = "features"
 ;projects[asc_image_handling][news][download][type] = "git"
-;projects[asc_image_handling][download][url] = "git@github.com:ASCTech/asc_image_handling.git"
+;projects[asc_image_handling][download][url] = "https://github.com/ASCTech/asc_image_handling.git"
 ;projects[asc_image_handling][download][branch] = "7.x-1.0"
 
 projects[dosu_edit][type] = "module"
 projects[dosu_edit][subdir] = "features"
 projects[dosu_edit][news][download][type] = "git"
-projects[dosu_edit][download][url] = "http://code.web.engadmin.ohio-state.edu/dosu_platform.git"
+projects[dosu_edit][download][url] = "http://code.web.engadmin.ohio-state.edu/project/dosu_platform.git"
 projects[dosu_edit][download][branch] = "7.x-1.x"
 
 projects[galleryformatter_advance][type] = "module"
 projects[galleryformatter_advance][subdir] = "custom"
 projects[galleryformatter_advance][download][type] = "git"
-projects[galleryformatter_advance][download][type] = "git@github.com:ASCTech/galleryformatter_advance.git"
+projects[galleryformatter_advance][download][type] = "https://github.com/ASCTech/galleryformatter_advance.git"
 projects[galleryformatter_advance][download][branch] = "7.x-1.0"
 
 ;Themes
@@ -167,5 +167,5 @@ libraries[ckeditor][destination] = "libraries"
 ;Themes
 projects[q7][type] = "theme"
 projects[q7][download][type] = "git"
-projects[q7][download][url] = "git@github.com:ASCTech/q7.git"
+projects[q7][download][url] = "http://github.com/ASCTech/q7.git"
 
