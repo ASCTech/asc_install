@@ -55,7 +55,7 @@ projects[jquery_ui][subdir] = "contrib"
 
 projects[jquery_update][subdir] = "contrib"
 
-projects[libraries][subdir] = "contrib"
+projects[] = "libraries"
 
 projects[lightbox2][subdir] = "contrib"
 
