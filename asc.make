@@ -128,7 +128,7 @@ projects[asc_events][type] = "module"
 projects[asc_events][subdir] = "features"
 projects[asc_events][download][type] = "git"
 projects[asc_events][download][url] = "https://github.com/ASCTech/asc_events.git"
-projects[asc_events][download][branch] = "7.x-1.x""
+projects[asc_events][download][branch] = "7.x-1.x"
 
 projects[asc_image_handling][type] = "module"
 projects[asc_image_handling][subdir] = "features"
