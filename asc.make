@@ -110,7 +110,7 @@ projects[socialmedia][subdir] = "contrib"
 
 projects[strongarm][subdir] = "contrib"
 
-projects[token] = "token"
+projects[token][subdir] = "contrib"
 
 projects[tvi][subdir] = "contrib"
 projects[tvi][patch][] = "http://drupal.org/files/tvi-get_term_info-1547340-2_0.patch"
