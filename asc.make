@@ -123,6 +123,8 @@ projects[token][subdir] = "contrib"
 projects[tvi][subdir] = "contrib"
 projects[tvi][patch][] = "http://drupal.org/files/tvi-get_term_info-1547340-2_0.patch"
 
+projects[uuid][subdir] = "contrib"
+
 projects[views][subdir] = "contrib"
 
 projects[widgets][subdir] = "contrib"
