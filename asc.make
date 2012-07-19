@@ -37,6 +37,8 @@ projects[ds][subdir] = "contrib"
 
 projects[features][subdir] = "contrib"
 
+projects[features_extras][subdir] = "contrib"
+
 projects[file_entity][subdir] = "contrib"
 projects[file_entity][version] = "2.0-unstable6"
 projects[file_entity][patch][] = https://raw.github.com/ASCTech/drush_make/master/patches/file-entity_asc-template.patch
@@ -78,6 +80,10 @@ projects[media][version] = "2.0-unstable6"
 projects[media][patch][] = "http://drupal.org/files/1426730-edit-file-in-browser-43.patch"
 projects[media][patch][] = "https://raw.github.com/ASCTech/drush_make/master/patches/media_alt_and_title-1307054-17_asc-custom.patch"
 
+projects[media_vimeo][subdir] = "contrib"
+
+projects[media_youtube][subdir] = "contrib"
+
 projects[menu_block][subdir] = "contrib"
 
 projects[menu_breadcrumb][subdir] = "contrib"
@@ -85,6 +91,8 @@ projects[menu_breadcrumb][subdir] = "contrib"
 projects[migrate][subdir] = "contrib"
 
 projects[node_clone][subdir] = "contrib"
+
+projects[node_export][subdir] = "contrib"
 
 projects[omega_tools][subdir] = "contrib"
 
@@ -140,7 +148,7 @@ projects[asc_events][download][branch] = "7.x-1.x"
 projects[asc_image_handling][type] = "module"
 projects[asc_image_handling][subdir] = "features"
 projects[asc_image_handling][news][download][type] = "git"
-projects[asc_image_handling][download][url] = "http://github.com/ASCTech/asc_image_handling.git"
+projects[asc_image_handling][download][url] = "https://github.com/ASCTech/asc_image_handling.git"
 projects[asc_image_handling][download][branch] = "7.x-1.0"
 
 projects[asc_taxonomy_filter][type] = "module"
@@ -148,6 +156,12 @@ projects[asc_taxonomy_filter][subdir] = "custom"
 projects[asc_taxonomy_filter][news][download][type] = "git"
 projects[asc_taxonomy_filter][download][url] = "https://github.com/ASCTech/asc_taxonomy_filter.git"
 projects[asc_taxonomy_filter][download][branch] = "7.x-1.x"
+
+projects[asc_auth][type] = "module"
+projects[asc_auth][subdir] = "features"
+projects[asc_auth][news][download][type] = "git"
+projects[asc_auth][download][url] = "https://github.com/ASCTech/asc_auth.git"
+projects[asc_auth][download][branch] = "7.x-1.x"
 
 ;projects[dosu_edit][type] = "module"
 ;projects[dosu_edit][subdir] = "features"
@@ -158,8 +172,14 @@ projects[asc_taxonomy_filter][download][branch] = "7.x-1.x"
 projects[galleryformatter_advance][type] = "module"
 projects[galleryformatter_advance][subdir] = "custom"
 projects[galleryformatter_advance][download][type] = "git"
-projects[galleryformatter_advance][download][type] = "http://github.com/ASCTech/galleryformatter_advance.git"
+projects[galleryformatter_advance][download][type] = "https://github.com/ASCTech/galleryformatter_advance.git"
 projects[galleryformatter_advance][download][branch] = "7.x-1.0"
+
+projects[asc_front][type] = "module"
+projects[asc_front][subdir] = "custom"
+projects[asc_front][download][type] = "git"
+projects[asc_front][download][type] = "https://github.com/ASCTech/asc_front.git"
+projects[asc_front][download][branch] = "7.x-1.x"
 
 ;Themes
 projects[omega][type] = "theme"
