@@ -37,7 +37,7 @@ projects[ds][subdir] = "contrib"
 
 projects[features][subdir] = "contrib"
 
-projects[features_extras][subdir] = "contrib"
+projects[features_extra][subdir] = "contrib"
 
 projects[file_entity][subdir] = "contrib"
 projects[file_entity][version] = "2.0-unstable6"
