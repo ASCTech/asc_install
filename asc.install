@@ -28,7 +28,7 @@ function asc_install() {
     'asc_news',
     'asc_events',
     'asc_auth',
-    'asc_events',
+    'asc_front',
   );
   module_enable($enable, TRUE);
 
