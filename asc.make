@@ -139,43 +139,36 @@ projects[xmlsitemap][subdir] = "contrib"
 ;Custom
 projects[asc_news][type] = "module"
 projects[asc_news][subdir] = "features"
-projects[asc_news][download][type] = "git"
 projects[asc_news][download][url] = "https://github.com/ASCTech/asc_news.git"
 projects[asc_news][download][branch] = "7.x-1.x"
 
 projects[asc_events][type] = "module"
 projects[asc_events][subdir] = "features"
-projects[asc_events][download][type] = "git"
 projects[asc_events][download][url] = "https://github.com/ASCTech/asc_events.git"
 projects[asc_events][download][branch] = "7.x-1.x"
 
 projects[asc_image_handling][type] = "module"
 projects[asc_image_handling][subdir] = "features"
-projects[asc_image_handling][news][download][type] = "git"
 projects[asc_image_handling][download][url] = "https://github.com/ASCTech/asc_image_handling.git"
 projects[asc_image_handling][download][branch] = "7.x-1.0"
 
 projects[asc_taxonomy_filter][type] = "module"
 projects[asc_taxonomy_filter][subdir] = "custom"
-projects[asc_taxonomy_filter][news][download][type] = "git"
 projects[asc_taxonomy_filter][download][url] = "https://github.com/ASCTech/asc_taxonomy_filter.git"
 projects[asc_taxonomy_filter][download][branch] = "7.x-1.x"
 
 projects[asc_auth][type] = "module"
 projects[asc_auth][subdir] = "features"
-projects[asc_auth][news][download][type] = "git"
 projects[asc_auth][download][url] = "https://github.com/ASCTech/asc_auth.git"
 projects[asc_auth][download][branch] = "7.x-1.x"
 
 projects[asc_front][type] = "module"
 projects[asc_front][subdir] = "features"
-projects[asc_front][download][type] = "git"
 projects[asc_front][download][type] = "https://github.com/ASCTech/asc_front.git"
 projects[asc_front][download][branch] = "7.x-1.x"
 
 projects[galleryformatter_advance][type] = "module"
 projects[galleryformatter_advance][subdir] = "custom"
-projects[galleryformatter_advance][download][type] = "git"
 projects[galleryformatter_advance][download][type] = "https://github.com/ASCTech/galleryformatter_advance.git"
 projects[galleryformatter_advance][download][branch] = "7.x-1.0"
 
