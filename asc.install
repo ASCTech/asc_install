@@ -29,6 +29,8 @@ function asc_install() {
     'asc_events',
     'asc_auth',
     'asc_front',
+    'color',
+    'pathauto',
   );
   module_enable($enable, TRUE);
 
@@ -36,6 +38,7 @@ function asc_install() {
   variable_set("theme_default", "q7");
   variable_set("admin_theme", "seven");
   variable_set("node_admin_theme", '1');
+  variable_set("site_frontpage", 'front');
   theme_enable(array("q7"));
   theme_disable(array("bartik"));
 
