@@ -53,5 +53,5 @@ function asc_install() {
   foreach ($blocks as $block) {
     $query->values($block);
   }
-  $query->execute;
+  $query->execute();
 }
