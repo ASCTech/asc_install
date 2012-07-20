@@ -31,6 +31,7 @@ function asc_install() {
     'asc_front',
     'color',
     'pathauto',
+    'menu_block',
   );
   module_enable($enable, TRUE);
 
