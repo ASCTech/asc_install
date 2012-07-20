@@ -17,6 +17,8 @@ projects[] = "coder"
 ; Throwing a lot of errors, disabled for now.
 ; projects[config_perms][subdir] = "contrib"
 
+projects[content_access][subdir] = "contrib"
+
 projects[context][subdir] = "contrib"
 
 projects[] = "ctools"
@@ -118,7 +120,7 @@ projects[socialmedia][subdir] = "contrib"
 
 projects[strongarm][subdir] = "contrib"
 
-projects[token][subdir] = "contrib"
+projects[] = "token"
 
 projects[tvi][subdir] = "contrib"
 projects[tvi][patch][] = "http://drupal.org/files/tvi-get_term_info-1547340-2_0.patch"
@@ -178,7 +180,7 @@ projects[galleryformatter_advance][download][type] = "https://github.com/ASCTech
 projects[galleryformatter_advance][download][branch] = "7.x-1.0"
 
 projects[asc_front][type] = "module"
-projects[asc_front][subdir] = "custom"
+projects[asc_front][subdir] = "features"
 projects[asc_front][download][type] = "git"
 projects[asc_front][download][type] = "https://github.com/ASCTech/asc_front.git"
 projects[asc_front][download][branch] = "7.x-1.x"
