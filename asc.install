@@ -47,6 +47,16 @@ function asc_install() {
       'pages'     =>  '',
       'cache'     =>  '-1',
     ),
+    array(
+      'module'    =>  'search',
+      'delta'     =>  'form',
+      'theme'     =>  'q7',
+      'status'    =>  '1',
+      'weight'    =>  '0',
+      'region'    =>  'footer_second',
+      'pages'     =>  '',
+      'cache'     =>  '-1',
+    ),
   );
   
   $query = db_insert('block')->fields(array('module', 'delta', 'theme', 'status', 'weight', 'region', 'pages', 'cache'));
