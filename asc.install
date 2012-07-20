@@ -26,6 +26,9 @@ function asc_install() {
   $enable = array(
     'features',
     'asc_news',
+    'asc_events',
+    'asc_auth',
+    'asc_events',
   );
   module_enable($enable, TRUE);
 
