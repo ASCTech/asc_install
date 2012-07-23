@@ -153,6 +153,16 @@ projects[asc_front][subdir] = "features"
 projects[asc_front][download][url] = "https://github.com/ASCTech/asc_front.git"
 projects[asc_front][download][branch] = "7.x-1.x"
 
+projects[asc_dev][type] = "module"
+projects[asc_dev][subdir] = "features"
+projects[asc_dev][download][url] = "https://github.com/ASCTech/asc_dev.git"
+projects[asc_dev][download][branch] = "7.x-1.x"
+
+projects[asc_prod][type] = "module"
+projects[asc_prod][subdir] = "features"
+projects[asc_prod][download][url] = "https://github.com/ASCTech/asc_prod.git"
+projects[asc_prod][download][branch] = "7.x-1.0"
+
 projects[asc_image_handling][type] = "module"
 projects[asc_image_handling][subdir] = "features"
 projects[asc_image_handling][download][url] = "https://github.com/ASCTech/asc_image_handling.git"
