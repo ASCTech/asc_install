@@ -25,13 +25,13 @@ function asc_install() {
   // List of Modules to enable.
   $enable = array(
     'features',
+    'color',
+    'pathauto',
+    'menu_block',
     'asc_news',
     'asc_events',
     'asc_auth',
     'asc_front',
-    'color',
-    'pathauto',
-    'menu_block',
   );
   module_enable($enable, TRUE);
 
