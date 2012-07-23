@@ -138,6 +138,11 @@ projects[wysiwyg][patch][] = "http://drupal.org/files/0001-feature.inc-from-6240
 projects[xmlsitemap][subdir] = "contrib"
 
 ;Custom
+projects[asc_blog][type] = "module"
+projects[asc_blog][subdir] = "features"
+projects[asc_blog][download][url] = "https://github.com/ASCTech/asc_blog.git"
+projects[asc_blog][download][branch] = "7.x-1.x"
+
 projects[asc_news][type] = "module"
 projects[asc_news][subdir] = "features"
 projects[asc_news][download][url] = "https://github.com/ASCTech/asc_news.git"
@@ -152,11 +157,6 @@ projects[asc_front][type] = "module"
 projects[asc_front][subdir] = "features"
 projects[asc_front][download][url] = "https://github.com/ASCTech/asc_front.git"
 projects[asc_front][download][branch] = "7.x-1.x"
-
-projects[asc_devel][type] = "module"
-projects[asc_devel][subdir] = "features"
-projects[asc_devel][download][url] = "https://github.com/ASCTech/asc_devel.git"
-projects[asc_devel][download][branch] = "7.x-1.x"
 
 projects[asc_devel][type] = "module"
 projects[asc_devel][subdir] = "features"
