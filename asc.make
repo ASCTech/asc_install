@@ -44,6 +44,8 @@ projects[features][subdir] = "contrib"
 
 projects[features_extra][subdir] = "contrib"
 
+projects[form_builder][subdir] = "contrib"
+
 projects[file_entity][subdir] = "contrib"
 projects[file_entity][version] = "2.0-unstable6"
 projects[file_entity][patch][] = https://raw.github.com/ASCTech/drush_make/master/patches/file-entity_asc-template.patch
@@ -111,6 +113,8 @@ projects[phone][subdir] = "contrib"
 
 projects[piwik][subdir] = "contrib"
 
+projects[plupload][subdir] = "contrib"
+
 projects[recaptcha][subdir] = "contrib"
 
 projects[search404][subdir] = "contrib"
@@ -133,6 +137,8 @@ projects[tvi][patch][] = "http://drupal.org/files/tvi-get_term_info-1547340-2_0.
 projects[uuid][subdir] = "contrib"
 
 projects[views][subdir] = "contrib"
+
+projects[webform][subdir] = "contrib"
 
 projects[widgets][subdir] = "contrib"
 
