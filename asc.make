@@ -5,6 +5,9 @@ api = 2
 
 projects[admin][subdir] = "contrib"
 
+projects[block_class][subdir] = "contrib"
+projects[block_class][patch] = "http://drupal.org/files/block_class-features_support-1230234-15.patch.patch"
+
 projects[block_titlelink][subdir] = "contrib"
 
 projects[calendar][type] = "module"
