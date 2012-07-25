@@ -113,8 +113,6 @@ projects[phone][subdir] = "contrib"
 
 projects[piwik][subdir] = "contrib"
 
-projects[plupload][subdir] = "contrib"
-
 projects[recaptcha][subdir] = "contrib"
 
 projects[search404][subdir] = "contrib"
@@ -150,51 +148,61 @@ projects[xmlsitemap][subdir] = "contrib"
 ;Custom
 projects[asc_blog][type] = "module"
 projects[asc_blog][subdir] = "features"
+projects[asc_blog][download][type] = "git"
 projects[asc_blog][download][url] = "https://github.com/ASCTech/asc_blog.git"
 projects[asc_blog][download][branch] = "7.x-1.x"
 
 projects[asc_news][type] = "module"
 projects[asc_news][subdir] = "features"
+projects[asc_news][download][type] = "git"
 projects[asc_news][download][url] = "https://github.com/ASCTech/asc_news.git"
 projects[asc_news][download][branch] = "7.x-1.x"
 
 projects[asc_events][type] = "module"
 projects[asc_events][subdir] = "features"
+projects[asc_events][download][type] = "git"
 projects[asc_events][download][url] = "https://github.com/ASCTech/asc_events.git"
 projects[asc_events][download][branch] = "7.x-1.x"
 
 projects[asc_front][type] = "module"
 projects[asc_front][subdir] = "features"
+projects[asc_front][download][type] = "git"
 projects[asc_front][download][url] = "https://github.com/ASCTech/asc_front.git"
 projects[asc_front][download][branch] = "7.x-1.x"
 
 projects[asc_devel][type] = "module"
 projects[asc_devel][subdir] = "features"
+projects[asc_devel][download][type] = "git"
 projects[asc_devel][download][url] = "https://github.com/ASCTech/asc_devel.git"
 projects[asc_devel][download][branch] = "7.x-1.x"
 
 projects[asc_prod][type] = "module"
 projects[asc_prod][subdir] = "features"
+projects[asc_prod][download][type] = "git"
 projects[asc_prod][download][url] = "https://github.com/ASCTech/asc_prod.git"
 projects[asc_prod][download][branch] = "7.x-1.0"
 
 projects[asc_image_handling][type] = "module"
 projects[asc_image_handling][subdir] = "features"
+projects[asc_image_handling][download][type] = "git"
 projects[asc_image_handling][download][url] = "https://github.com/ASCTech/asc_image_handling.git"
 projects[asc_image_handling][download][branch] = "7.x-1.0"
 
 projects[asc_taxonomy_filter][type] = "module"
 projects[asc_taxonomy_filter][subdir] = "custom"
+projects[asc_taxonomy_filter][download][type] = "git"
 projects[asc_taxonomy_filter][download][url] = "https://github.com/ASCTech/asc_taxonomy_filter.git"
 projects[asc_taxonomy_filter][download][branch] = "7.x-1.x"
 
 projects[asc_auth][type] = "module"
 projects[asc_auth][subdir] = "features"
+projects[asc_auth][download][type] = "git"
 projects[asc_auth][download][url] = "https://github.com/ASCTech/asc_auth.git"
 projects[asc_auth][download][branch] = "7.x-1.x"
 
 projects[galleryformatter_advance][type] = "module"
 projects[galleryformatter_advance][subdir] = "custom"
+projects[galleryformatter_advance][download][type] = "git"
 projects[galleryformatter_advance][download][url] = "https://github.com/ASCTech/galleryformatter_advance.git"
 projects[galleryformatter_advance][download][branch] = "7.x-1.0"
 
