@@ -94,6 +94,7 @@ projects[media_vimeo][subdir] = "contrib"
 projects[media_youtube][subdir] = "contrib"
 
 projects[menu_block][subdir] = "contrib"
+projects[menu_block][patch][] = "http://drupal.org/files/ctools_export-693302-23.patch"
 
 projects[menu_breadcrumb][subdir] = "contrib"
 
