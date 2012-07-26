@@ -26,6 +26,7 @@ function asc_install() {
   $enable = array(
     'features',
     'color',
+    'content_access',
     'pathauto',
     'menu_block',
     'asc_news',
