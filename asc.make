@@ -123,6 +123,8 @@ projects[shib_auth][subdir] = "contrib"
 projects[shib_provision][type] = "module"
 projects[shib_provision][subdir] = "contrib"
 
+projects[special_menu_items][subdir] = "contrib"
+
 projects[socialmedia][subdir] = "contrib"
 
 projects[strongarm][subdir] = "contrib"
