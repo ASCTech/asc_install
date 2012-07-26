@@ -44,7 +44,7 @@ projects[features][subdir] = "contrib"
 
 projects[features_extra][subdir] = "contrib"
 
-projects[form_builder][subdir] = "contrib"
+projects[form_builder][type] = "module"
 
 projects[file_entity][subdir] = "contrib"
 projects[file_entity][version] = "2.0-unstable6"
