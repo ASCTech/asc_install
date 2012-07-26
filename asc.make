@@ -94,7 +94,6 @@ projects[media_vimeo][subdir] = "contrib"
 projects[media_youtube][subdir] = "contrib"
 
 projects[menu_block][subdir] = "contrib"
-projects[menu_block][patch][] = "http://drupal.org/files/ctools_export-693302-23.patch"
 
 projects[menu_breadcrumb][subdir] = "contrib"
 
@@ -176,6 +175,12 @@ projects[asc_devel][subdir] = "features"
 projects[asc_devel][download][type] = "git"
 projects[asc_devel][download][url] = "https://github.com/ASCTech/asc_devel.git"
 projects[asc_devel][download][branch] = "7.x-1.x"
+
+projects[asc_menu_block][type] = "module"
+projects[asc_menu_block][subdir] = "custom"
+projects[asc_menu_block][download][type] = "git"
+projects[asc_menu_block][download][url] = "https://github.com/ASCTech/asc_menu_block.git"
+projects[asc_menu_block][download][branch] = "7.x-1.x"
 
 projects[asc_prod][type] = "module"
 projects[asc_prod][subdir] = "features"

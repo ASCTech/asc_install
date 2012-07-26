@@ -32,6 +32,7 @@ function asc_install() {
     'asc_events',
     'asc_auth',
     'asc_front',
+    'asc_menu_block',
   );
   module_enable($enable, TRUE);
 
