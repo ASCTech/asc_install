@@ -96,6 +96,8 @@ projects[media_youtube][subdir] = "contrib"
 projects[menu_block][subdir] = "contrib"
 
 projects[menu_breadcrumb][subdir] = "contrib"
+projects[menu_breadcrumb][version] = "7.x-2.x-dev"
+projects[menu_breadcrumb][patch][] = "http://drupal.org/files/custom_breadcrumbs_features_integration_7_x_2_x_dev-579690-64.patch"
 
 projects[migrate][subdir] = "contrib"
 
