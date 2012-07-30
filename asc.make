@@ -113,6 +113,8 @@ projects[phone][subdir] = "contrib"
 
 projects[piwik][subdir] = "contrib"
 
+projects[piwik_reports][subdir] = "contrib"
+
 projects[recaptcha][subdir] = "contrib"
 
 projects[search404][subdir] = "contrib"
