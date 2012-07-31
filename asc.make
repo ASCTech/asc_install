@@ -27,7 +27,7 @@ projects[context][subdir] = "contrib"
 projects[] = "ctools"
 
 projects[custom_breadcrumbs][type] = "module"
-projects[custom_breadcrumbs][subdir] = "contrib"
+;projects[custom_breadcrumbs][subdir] = "contrib"
 projects[custom_breadcrumbs][download][type] = "git"
 projects[custom_breadcrumbs][download][url] = "http://git.drupal.org/project/custom_breadcrumbs.git"
 projects[custom_breadcrumbs][download][branch] = "7.x-2.x"
