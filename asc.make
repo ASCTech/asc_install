@@ -26,7 +26,13 @@ projects[context][subdir] = "contrib"
 
 projects[] = "ctools"
 
-projects[custom_breadcrumbs][subdir] = "module"
+projects[custom_breadcrumbs][type] = "module"
+projects[custom_breadcrumbs][subdir] = "contrib"
+projects[custom_breadcrumbs][download][type] = "git"
+projects[custom_breadcrumbs][download][url] = "http://git.drupal.org/project/custom_breadcrumbs.git"
+projects[custom_breadcrumbs][download][branch] = "7.x-2.x"
+projects[custom_breadcrumbs][patch][] = "http://drupal.org/files/custom_breadcrumbs_features_integration_7_x_2_x_dev-579690-64.patch"
+
 
 projects[custom_formatters][type] = "module"
 
@@ -94,10 +100,6 @@ projects[media_vimeo][subdir] = "contrib"
 projects[media_youtube][subdir] = "contrib"
 
 projects[menu_block][subdir] = "contrib"
-
-projects[menu_breadcrumb][subdir] = "contrib"
-projects[menu_breadcrumb][version] = "7.x-2.x-dev"
-projects[menu_breadcrumb][patch][] = "http://drupal.org/files/custom_breadcrumbs_features_integration_7_x_2_x_dev-579690-64.patch"
 
 projects[migrate][subdir] = "contrib"
 
