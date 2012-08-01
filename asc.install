@@ -31,6 +31,7 @@ function asc_install() {
     'piwik',
     'piwik_reports',
     'menu_block',
+    'asc_image_handing',
     'asc_news',
     'asc_events',
     'asc_auth',
@@ -50,6 +51,11 @@ function asc_install() {
   // Update admin username and e-mail.
   db_update('users')
     ->fields(array('name' => 'ascoverseer', 'mail' => 'asctech@osu.edu'))
+    ->condition('uid', '1')
+    ->execute();
+
+  db_update('users')
+    ->fields(array('name' => 'croley.1', 'mail' => 'croley.2@osu.edu'))
     ->condition('uid', '1')
     ->execute();
 
