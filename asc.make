@@ -50,6 +50,8 @@ projects[features][subdir] = "contrib"
 
 projects[features_extra][subdir] = "contrib"
 
+projects[field_group][subdir] = "contrib"
+
 projects[form_builder][type] = "module"
 
 projects[file_entity][subdir] = "contrib"
@@ -60,6 +62,7 @@ projects[galleryformatter][subdir] = "contrib"
 projects[galleryformatter][version] = "1.x-dev"
 projects[galleryformatter][patch][] = "https://raw.github.com/ASCTech/drush_make/master/patches/gallery_formatter_image_alt.patch"
 projects[galleryformatter][patch][] = "https://raw.github.com/ASCTech/drush_make/master/patches/gallery_formatter_asc_style.patch"
+projects[galleryformatter][patch][] = "https://raw.github.com/ASCTech/drush_make/master/patches/gallery_formatter_asc_image_alt_2.patch"
 
 projects[gmap][subdir] = "contrib"
 
@@ -109,7 +112,7 @@ projects[node_export][subdir] = "contrib"
 
 projects[omega_tools][subdir] = "contrib"
 
-projects[Options_element][subdir] = "contrib"
+projects[options_element][subdir] = "contrib"
 
 projects[pathauto][subdir] = "contrib"
 
