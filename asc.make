@@ -109,6 +109,8 @@ projects[node_export][subdir] = "contrib"
 
 projects[omega_tools][subdir] = "contrib"
 
+projects[Options_element][subdir] = "contrib"
+
 projects[pathauto][subdir] = "contrib"
 
 projects[performance][subdir] = "contrib"
