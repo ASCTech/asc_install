@@ -60,9 +60,8 @@ projects[file_entity][patch][] = https://raw.github.com/ASCTech/drush_make/maste
 
 projects[galleryformatter][subdir] = "contrib"
 projects[galleryformatter][version] = "1.x-dev"
-projects[galleryformatter][patch][] = "https://raw.github.com/ASCTech/drush_make/master/patches/gallery_formatter_image_alt.patch"
+projects[galleryformatter][patch][] = "https://raw.github.com/ASCTech/drush_make/master/patches/gallery_formatter_asc_image_alt.patch"
 projects[galleryformatter][patch][] = "https://raw.github.com/ASCTech/drush_make/master/patches/gallery_formatter_asc_style.patch"
-projects[galleryformatter][patch][] = "https://raw.github.com/ASCTech/drush_make/master/patches/gallery_formatter_asc_image_alt_2.patch"
 
 projects[gmap][subdir] = "contrib"
 
