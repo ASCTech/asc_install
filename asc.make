@@ -3,6 +3,8 @@ api = 2
 
 ; Contrib
 
+projects[acl][subdir] = "contrib"
+
 projects[admin][subdir] = "contrib"
 
 projects[block_class][subdir] = "contrib"
