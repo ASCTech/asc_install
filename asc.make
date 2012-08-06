@@ -155,7 +155,7 @@ projects[webform][subdir] = "contrib"
 projects[webform_submissions_acl][type] = "module"
 projects[webform_submissions_acl][subdir] = "contrib"
 projects[webform_submissions_acl][download][type] = "git"
-projects[webform_submissions_acl][download][url] = "http://ftp.drupal.org/files/projects/webform_submissions_acl-6.x-1.0.tar.gz"
+projects[webform_submissions_acl][download][url] = "http://git.drupal.org/project/webform_submissions_acl.git"
 projects[webform_submissions_acl][patch][] = "http://drupal.org/files/webform_submissions_acl-D7_compatible-1404896-4.patch"
 
 projects[widgets][subdir] = "contrib"
