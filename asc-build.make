@@ -1,9 +1,8 @@
 core = 7.x
 api = 2
 
-projects[pressflow][type] = "core"
-projects[pressflow][download][type] = "git"
-projects[pressflow][download][url] = "https://github.com/pressflow/7.git"
+rojects[drupal][type] = core
+projects[drupal][version] = 7.12
 
 projects[asc][type] = "profile"
 projects[asc][download][type] = "git"
