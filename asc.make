@@ -260,3 +260,4 @@ projects[q7][type] = "theme"
 projects[q7][download][type] = "git"
 projects[q7][download][url] = "http://github.com/ASCTech/q7.git"
 
+projects[drupal][type] = "core"
