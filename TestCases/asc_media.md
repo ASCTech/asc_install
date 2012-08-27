@@ -4,6 +4,7 @@ ASC Media Regression Test Case
 1.  Log in to system as Content Editor, Manager or Admin.
     +   Site should allow user to log in succesfully.
 
+
 2.  As Content Manager go to Administration > Structure > Taxonomy from menu.
     Add several term to each of the Image vocabularies.
     +   Site should have 3 vocabularies for media, and allow Content Managers
@@ -13,6 +14,7 @@ ASC Media Regression Test Case
 3.  From left-hand menu, select 'Administration' -> 'Content', then select the
         'Files' tab.
     +   Site Admins and Content Managers should have access to admin/content/file.
+
 
 4.  Click Add File, Choose a File and click Submit. You should be redirected to
         edit information about the file you uploaded.
