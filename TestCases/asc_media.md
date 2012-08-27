@@ -16,12 +16,12 @@ ASC Media Regression Test Case
 
 4.  Click Add File, Choose a File and click Submit. You should be redirected to
         edit information about the file you uploaded.
-    a.  Site Admins and Content Managers should have access to admin/content/file.
-    b.  Site should allow uploads and load media edit form.
+    +  Site Admins and Content Managers should have access to admin/content/file.
+    +  Site should allow uploads and load media edit form.
 
 5.  Alter 'Name' (required), populate 'Caption' (not required) and 'Alt Text'
         (required) fields with unique, appropriate values.
-    a.  Form should contain correct fields.
+    +  Form should contain correct fields.
 
 6.  Add one or more terms from each vocabulary on media creation form.
     a.  Form should contain terms and renamed vocabularies as entered in step 2.
