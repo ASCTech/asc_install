@@ -1,5 +1,18 @@
-ASC Media Regression Test Case
-====================================
+ASC Media Handling Regression Test
+==================================
+
+This testingscript was authored for editors to review the functionality of the ASC
+Drupal standard sites after a release. It is structure with a numbered action step,
+and one or more assertions that should be true when that step is taken, and _is_
+subject to change. If the test "fails", please send an e-mail (submit a ticket)
+with the following information to asctech@osu.edu:
++   Name of test (e.g., 'ASC News Module Regression Test')
++   Date/Time Problem was Found
+*   Browser Version
+*   Which test step failed, with a brief description of what did not work.
+
+If there are problems with the test itself, these issues should be discussed at
+a Web Team Meeting or entered in to pivotal tracker.
 
 1.  Log in to system as Content Editor, Manager or Admin.
     +   Site should allow user to log in succesfully.
