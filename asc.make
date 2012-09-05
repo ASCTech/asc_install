@@ -82,6 +82,7 @@ projects[jquery_update][subdir] = "contrib"
 projects[] = "libraries"
 
 projects[lightbox2][subdir] = "contrib"
+projects[lightbox2][patch][] = "https://raw.github.com/ASCTech/drush_make/master/patches/lightbox2_use_asc_arrows.patch"
 
 projects[link][subdir] = "contrib"
 

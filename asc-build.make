@@ -2,7 +2,7 @@ core = 7.x
 api = 2
 
 projects[drupal][type] = core
-projects[drupal][version] = 7.12
+projects[drupal][version] = 7.15
 
 projects[asc][type] = "profile"
 projects[asc][download][type] = "git"
