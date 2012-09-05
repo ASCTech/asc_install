@@ -1,7 +1,7 @@
 ASC News Module Regression Test
 ===============================
 
-This testingscript was authored for editors to review the functionality of the ASC
+This testing script was authored for editors to review the functionality of the ASC
 Drupal standard sites after a release. It is structure with a numbered action step,
 and one or more assertions that should be true when that step is taken, and _is_
 subject to change. If the test "fails", please send an e-mail (submit a ticket)
@@ -19,7 +19,7 @@ a Web Team Meeting or entered in to pivotal tracker.
 
 
 2.  As Content Manager go to Administration > Structure > Taxonomy from menu.
-    Add several term to each of the news vocabularies.
+    Add several terms to each of the news vocabularies.
     +   Site should have 3 vocabularies for news, and allow Content Managers
     and site administrators to add terms from the Taxonomy menu.
     +   Site Admins and Content Managers should be able to rename vocabularies.
