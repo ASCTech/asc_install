@@ -45,6 +45,7 @@ projects[delta][subdir] = "contrib"
 projects[email][subdir] = "contrib"
 
 projects[date][subdir] = "contrib"
+projects[date][patch][] = https://raw.github.com/ASCTech/drush_make/master/patches/date-format-calendar-asc.patch
 
 projects[ds][subdir] = "contrib"
 
@@ -78,6 +79,9 @@ projects[jquery_plugin][subdir] = "contrib"
 projects[jquery_ui][subdir] = "contrib"
 
 projects[jquery_update][subdir] = "contrib"
+
+projects[km][subdir] = "contrib"
+projects[km][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 
 projects[] = "libraries"
 
@@ -249,6 +253,11 @@ libraries[jquery_ui][download][type] = "get"
 libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery-ui-1.7.zip"
 libraries[jquery_ui][directory_name] = "jquery.ui"
 libraries[jquery_ui][destination] = "libraries"
+
+;KmPHP
+libraries[kmphp[subdir] = "custom"
+libraries[kmphp][directory_name] = "kmphp"
+libraries[kmphp][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 
 ; CKEditor
 libraries[ckeditor][download][type]= "get"
