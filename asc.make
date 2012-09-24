@@ -80,13 +80,14 @@ projects[jquery_ui][subdir] = "contrib"
 
 projects[jquery_update][subdir] = "contrib"
 
+projects[km][type] = "module"
 projects[km][subdir] = "contrib"
 projects[km][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 
 projects[] = "libraries"
 
 projects[lightbox2][subdir] = "contrib"
-projects[lightbox2][patch][] = "https://raw.github.com/ASCTech/drush_make/master/patches/lightbox2_use_asc_arrows.patch"
+#projects[lightbox2][patch][] = "https://raw.github.com/ASCTech/drush_make/master/patches/lightbox2_use_asc_arrows.patch"
 
 projects[link][subdir] = "contrib"
 
@@ -148,6 +149,8 @@ projects[strongarm][subdir] = "contrib"
 
 projects[] = "token"
 
+projects[taxonomy_access_fix][subdir] = "contrib"
+
 projects[tvi][subdir] = "contrib"
 projects[tvi][patch][] = "http://drupal.org/files/tvi-get_term_info-1547340-2_0.patch"
 
@@ -156,6 +159,8 @@ projects[uuid][subdir] = "contrib"
 projects[views][subdir] = "contrib"
 
 projects[webform][subdir] = "contrib"
+
+projects[wysiwyg_button_order][subdir] = "contrib"
 
 ;projects[webform_submissions_acl][type] = "module"
 ;projects[webform_submissions_acl][subdir] = "contrib"
@@ -255,7 +260,7 @@ libraries[jquery_ui][directory_name] = "jquery.ui"
 libraries[jquery_ui][destination] = "libraries"
 
 ;KmPHP
-libraries[kmphp[subdir] = "custom"
+libraries[kmphp][subdir] = "custom"
 libraries[kmphp][directory_name] = "kmphp"
 libraries[kmphp][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 
