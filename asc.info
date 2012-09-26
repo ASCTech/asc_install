@@ -12,6 +12,7 @@ dependencies[] = context
 dependencies[] = contextual
 dependencies[] = ctools
 dependencies[] = custom_breadcrumbs
+dependencies[] = custom_breadcrumbs_views
 dependencies[] = help
 dependencies[] = image
 dependencies[] = list
