@@ -20,7 +20,7 @@ a Web Team Meeting or entered in to pivotal tracker.
 
 2.  As Content Manager go to Administration > Structure > Taxonomy from menu.
     Add several terms to each of the events vocabularies, and rename a vocabulary.
-    +   Site should have 3 vocabularies for news, and allow Content Managers
+    +   Site should have 3 vocabularies for events, and allow Content Managers
     and site administrators to add terms from the Taxonomy menu.
     +   Site Admins and Content Managers should be able to rename vocabularies.
 
@@ -37,7 +37,7 @@ a Web Team Meeting or entered in to pivotal tracker.
     +    The WYSIWYG editor should contain the correct functionality.
 
 
-5.  Add one or more terms from each vocabulary on news creation form.
+5.  Add one or more terms from each vocabulary on event creation form.
     +   Form should contain terms and renamed vocabularies as entered in step 2.
 
 
