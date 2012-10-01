@@ -260,7 +260,6 @@ libraries[jquery_ui][directory_name] = "jquery.ui"
 libraries[jquery_ui][destination] = "libraries"
 
 ;KmPHP
-libraries[kmphp][subdir] = "custom"
 libraries[kmphp][directory_name] = "kmphp"
 libraries[kmphp][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 
