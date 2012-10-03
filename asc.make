@@ -171,7 +171,7 @@ projects[wysiwyg_button_order][subdir] = "contrib"
 projects[widgets][subdir] = "contrib"
 
 projects[wysiwyg][subdir] = "contrib"
-projects[wysiwyg][patch][] = "http://drupal.org/files/0001-feature.inc-from-624018-211-drush_make-7.x-2.1.patch"
+;projects[wysiwyg][patch][] = "http://drupal.org/files/0001-feature.inc-from-624018-211-drush_make-7.x-2.1.patch"
 
 projects[xmlsitemap][subdir] = "contrib"
 
