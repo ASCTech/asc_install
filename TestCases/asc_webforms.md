@@ -39,28 +39,29 @@ a Web Team Meeting or entered in to pivotal tracker.
     +   User should be able to manage form fields with drag-and-drop editor.
     
 
-5.  Click view to see rendered webform.
+6.  Click view to see rendered webform.
     +   Title should be displayed according to specs.
     +   Form fields should display with correct widgets, settings, and in anticipated order.
 
 
-8.  Enter a numerical value in the e-mail field and attempt to save.
+7.  Enter a numerical value in the e-mail field and attempt to save.
     +   Form should not let user submit form with invalid content.
 
 
 8.  Enter valid values and resave the form..
-    +   Form should let authorized (anonymous by default) user submit form with valid content.
+    +   Form should let authorized (all authenticated and anonymous users by default) user submit form with valid content.
 
 
-10. Visit the Access Control tab and grant view access to a user who is not a Form Manager, Form Viewer, Content Manager or Admin.
-    +   Webform Managers, Content Managers and Admins should have access to modify Access Control for Webforms.
-    +   Users  for Webformsl for Webform
+9. Visit the ACL tab and grant access to a user with no roles on the site (try NoRoleUser).
+    +   Webform Managers, Content Managers and Admins should have access to modify access control for Webforms.
+    
+
+10. Masquerade or log in as the user to which form access was granted and visit the form, select the results tab.
+    +   Any user with an account who is granted results access to a form should see the Results tab on the form page, and access form results.
+    +   Submitted Results should be available to all Form Vieweres, Form Managers, Content Managers, Admins and individual users with Results Access.
 
 
-11. 
-
-
-6.  Visit the content page on the Administration toolbar
+11.  Visit the content page on the Administration toolbar
         (Administration > Content). Click the 'edit' link under operations for
         the newly creatied story. Check the 'Display Thumbnails' box below the image selector.
         Then, near the bottom, under 'Menu Settings' check
@@ -73,17 +74,24 @@ a Web Team Meeting or entered in to pivotal tracker.
     +   Clicking on a non-active thumbnail should advance the rotor/slideshow to that image.
 
 
-7. Visit the content page on the Administration toolbar, click the edit link
-    for the story. At the bottom, deselect 'Published'.
+12. Visit the content page on the Administration toolbar, click the edit link
+    for the story. At the bottom, deselect 'Published' as Content Manger, Form Manager or Admin.
     +   Story should only be available to admins, other users should get an
-       'Access Denited' error in trying to visit its URL.
-    +   Admins and Content Managers should be able to unpublish stories.
-    +   Unpublished stories should not appear in any views.
+       'Access Denied' error in trying to visit its URL.
+    +   Admins, Content Managers and Admins should be able to unpublish stories.
+    +   Unpublished Webforms should not appear in any views.
 
 
-8. Visit the content page, and click the delete link under operations for the
+13. Visit the content page, and click the delete link under operations for the
     story.
-    +   Admins and Content Managers shoudl be able to delete Basic Pages.
+    +   Admins, Content Managers and Form Managers should be able to delete Webforms.
     +   Pages that have been deleted should no longer appear on any lists
       or views.
 
+
+*** Other functionality not specifically tested:
+    +   Form e-mails on submission, and templates for form e-mails.
+    +   Specifically testing functionality of all form widgets.
+    +   Conditional rules for form elements.
+    +   Access to individual form submissions for Managers, Viewers, Admins, ACL-added users.
+    
