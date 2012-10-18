@@ -61,31 +61,18 @@ a Web Team Meeting or entered in to pivotal tracker.
     +   Submitted Results should be available to all Form Vieweres, Form Managers, Content Managers, Admins and individual users with Results Access.
 
 
-11.  Visit the content page on the Administration toolbar
-        (Administration > Content). Click the 'edit' link under operations for
-        the newly creatied story. Check the 'Display Thumbnails' box below the image selector.
-        Then, near the bottom, under 'Menu Settings' check
-        'Provide Menu Link' and resave node on one of the available menus.
-    +   CM or Site Admin should be able to add menu items to 'Quick Links' and
-        'Main Menu' from Basic Page edit form.
-    +   Page title or menu item name should appear on designated menu.
-    +   Thumbnails should display below image rotor/slideshow. 
-    +   Thumbnail of current image in slideshow should appear active.
-    +   Clicking on a non-active thumbnail should advance the rotor/slideshow to that image.
-
-
-12. Visit the content page on the Administration toolbar, click the edit link
-    for the story. At the bottom, deselect 'Published' as Content Manger, Form Manager or Admin.
-    +   Story should only be available to admins, other users should get an
+11. Visit the content page on the Administration toolbar, click the edit link
+    for the webform. At the bottom, deselect 'Published' as Content Manger, Form Manager or Admin.
+    +   Webform should only be available to admins, other users should get an
        'Access Denied' error in trying to visit its URL.
-    +   Admins, Content Managers and Admins should be able to unpublish stories.
+    +   Admins, Content Managers and Form Managers should be able to unpublish webforns.
     +   Unpublished Webforms should not appear in any views.
 
 
-13. Visit the content page, and click the delete link under operations for the
-    story.
+12. Visit the content page, and click the delete link under operations for the
+    webforms.
     +   Admins, Content Managers and Form Managers should be able to delete Webforms.
-    +   Pages that have been deleted should no longer appear on any lists
+    +   Webforms that have been deleted should no longer appear on any lists
       or views.
 
 
