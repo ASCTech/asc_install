@@ -44,7 +44,7 @@ a Web Team Meeting or entered in to pivotal tracker.
     +   Blog stories should be published and promoted to front page by default.
 
 
-7.      Site should redirect to rendered blog entry page, url should be
+7.  Site should redirect to rendered blog entry page, url should be
         'blog/title'.
     +   Title should be displayed according to specs.
     +   Date should be displayed above post.
