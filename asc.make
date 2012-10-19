@@ -177,6 +177,18 @@ projects[wysiwyg][subdir] = "contrib"
 projects[xmlsitemap][subdir] = "contrib"
 
 ;Custom
+projects[asc_people][type] = "module"
+projects[asc_people][subdir] = "features"
+projects[asc_people][download][type] = "git"
+projects[asc_people][download][url] = "https://github.com/ASCTech/asc_people.git"
+projects[asc_people][download][branch] = "7.x-1.x"
+
+projects[opic][type] = "module"
+projects[opic][subdir] = "features"
+projects[opic][download][type] = "git"
+projects[opic][download][url] = "https://github.com/ASCTech/drupal_opic.git"
+projects[opic][download][branch] = "7.x-1.x"
+
 projects[asc_blog][type] = "module"
 projects[asc_blog][subdir] = "features"
 projects[asc_blog][download][type] = "git"
