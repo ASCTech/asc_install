@@ -151,6 +151,12 @@ projects[] = "token"
 
 projects[taxonomy_access_fix][subdir] = "contrib"
 
+projects[taxonomy_entity_index][type] = "module"
+projects[taxonomy_entity_index][subdir] = "contrib"
+projects[taxonomy_entity_index][download][type] = "git"
+projects[taxonomy_entity_index][download][branch] = "master"
+projects[taxonomy_entity_index][download][url] = "https://github.com/ASCTech/taxonomy_entity_index.git"
+
 projects[tvi][subdir] = "contrib"
 projects[tvi][patch][] = "http://drupal.org/files/tvi-get_term_info-1547340-2_0.patch"
 
