@@ -249,6 +249,12 @@ projects[asc_taxonomy_filter][download][type] = "git"
 projects[asc_taxonomy_filter][download][url] = "https://github.com/ASCTech/asc_taxonomy_filter.git"
 projects[asc_taxonomy_filter][download][branch] = "7.x-1.x"
 
+projects[asc_socialmedia][type] = "module"
+projects[asc_socialmedda][subdir] = "custom"
+projects[asc_socialmedia][download][type] = "git"
+projects[asc_socialmedia][download][url] = "https://github.com/ASCTech/asc_socialmedia.git"
+projects[asc_socialmedia][download][branch] = "7.x-1.x"
+
 projects[asc_auth][type] = "module"
 projects[asc_auth][subdir] = "features"
 projects[asc_auth][download][type] = "git"
