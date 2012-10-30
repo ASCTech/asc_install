@@ -66,8 +66,6 @@ projects[galleryformatter][version] = "1.x-dev"
 projects[galleryformatter][patch][] = "https://raw.github.com/ASCTech/drush_make/master/patches/gallery_formatter_asc_image_alt.patch"
 projects[galleryformatter][patch][] = "https://raw.github.com/ASCTech/drush_make/master/patches/gallery_formatter_asc_style.patch"
 
-projects[gmap][subdir] = "contrib"
-
 projects[google_analytics][subdir] = "contrib"
 
 projects[imagefield_crop][subdir] = "contrib"
@@ -254,7 +252,7 @@ projects[asc_taxonomy_filter][download][url] = "https://github.com/ASCTech/asc_t
 projects[asc_taxonomy_filter][download][branch] = "7.x-1.x"
 
 projects[asc_socialmedia][type] = "module"
-projects[asc_socialmedda][subdir] = "custom"
+projects[asc_socialmedia][subdir] = "custom"
 projects[asc_socialmedia][download][type] = "git"
 projects[asc_socialmedia][download][url] = "https://github.com/ASCTech/asc_socialmedia.git"
 projects[asc_socialmedia][download][branch] = "7.x-1.x"
