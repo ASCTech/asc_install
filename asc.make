@@ -72,6 +72,8 @@ projects[google_analytics][subdir] = "contrib"
 
 projects[imagefield_crop][subdir] = "contrib"
 
+projects[inspect][subdir] = "contrib"
+
 ;projects[date][subdir] = "contrib"
 
 projects[jquery_plugin][subdir] = "contrib"
@@ -143,8 +145,6 @@ projects[shib_provision][subdir] = "contrib"
 
 projects[special_menu_items][subdir] = "contrib"
 
-projects[socialmedia][subdir] = "contrib"
-
 projects[strongarm][subdir] = "contrib"
 
 projects[] = "token"
@@ -175,8 +175,6 @@ projects[webform_submissions_acl][download][type] = "git"
 projects[webform_submissions_acl][download][branch] = "7.x-1.x"
 projects[webform_submissions_acl][download][url] = "https://github.com/ASCTech/webform_submissions_acl.git"
 
-projects[widgets][subdir] = "contrib"
-
 projects[wysiwyg][subdir] = "contrib"
 ;projects[wysiwyg][patch][] = "http://drupal.org/files/0001-feature.inc-from-624018-211-drush_make-7.x-2.1.patch"
 
@@ -190,7 +188,7 @@ projects[asc_people][download][url] = "https://github.com/ASCTech/asc_people.git
 projects[asc_people][download][branch] = "7.x-1.x"
 
 projects[opic][type] = "module"
-projects[opic][subdir] = "features"
+projects[opic][subdir] = "custom"
 projects[opic][download][type] = "git"
 projects[opic][download][url] = "https://github.com/ASCTech/drupal_opic.git"
 projects[opic][download][branch] = "7.x-1.x"
@@ -212,6 +210,12 @@ projects[asc_events][subdir] = "features"
 projects[asc_events][download][type] = "git"
 projects[asc_events][download][url] = "https://github.com/ASCTech/asc_events.git"
 projects[asc_events][download][branch] = "7.x-1.x"
+
+projects[asc_footer][type] = "module"
+projects[asc_footer][subdir] = "custom"
+projects[asc_footer][download][type] = "git"
+projects[asc_footer][download][url] = "https://github.com/ASCTech/asc_footer.git"
+projects[asc_footer][download][branch] = "7.x-1.x"
 
 projects[asc_front][type] = "module"
 projects[asc_front][subdir] = "features"
