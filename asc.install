@@ -31,6 +31,7 @@ function asc_install() {
     'piwik',
     'piwik_reports',
     'menu_block',
+    'special_menu_items',
     'asc_image_handing',
     'asc_news',
     'asc_events',
