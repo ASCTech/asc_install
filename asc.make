@@ -269,6 +269,12 @@ projects[asc_auth][download][type] = "git"
 projects[asc_auth][download][url] = "https://github.com/ASCTech/asc_auth.git"
 projects[asc_auth][download][branch] = "7.x-1.x"
 
+projects[asc_users][type] = "module"
+projects[asc_users][subdir] = "custom"
+projects[asc_users][download][type] = "git"
+projects[asc_users][download][url] = "https://github.com/ASCTech/asc_users.git"
+projects[asc_users][download][branch] = "7.x-1.0"
+
 projects[asc_webforms][type] = "module"
 projects[asc_webforms][subdir] = "features"
 projects[asc_webforms][download][type] = "git"
