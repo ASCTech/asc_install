@@ -157,6 +157,7 @@ projects[taxonomy_entity_index][download][url] = "https://github.com/ASCTech/tax
 
 projects[tvi][subdir] = "contrib"
 projects[tvi][patch][] = "http://drupal.org/files/tvi-get_term_info-1547340-2_0.patch"
+projects[tvi][patch][] = "http://drupal.org/files/tvi-use-variable-table-1585350-15.patchh"
 
 projects[uuid][subdir] = "contrib"
 
