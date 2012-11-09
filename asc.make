@@ -5,6 +5,8 @@ api = 2
 
 projects[acl][subdir] = "contrib"
 
+projects[addressfield][subdir] = "contrib"
+
 projects[admin][subdir] = "contrib"
 
 projects[block_class][subdir] = "contrib"
@@ -18,6 +20,8 @@ projects[calendar][subdir] = "contrib"
 projects[captcha][subdir] = "contrib"
 
 projects[] = "coder"
+
+projects[commerce][subdir] = "contrib"
 
 ; Throwing a lot of errors, disabled for now.
 ; projects[config_perms][subdir] = "contrib"
@@ -48,6 +52,8 @@ projects[date][subdir] = "contrib"
 projects[date][patch][] = https://raw.github.com/ASCTech/drush_make/master/patches/date-format-calendar-asc.patch
 
 projects[ds][subdir] = "contrib"
+
+projects[entity][subdir] = "contrib"
 
 projects[features][subdir] = "contrib"
 
@@ -133,6 +139,8 @@ projects[piwik_reports][subdir] = "contrib"
 
 projects[recaptcha][subdir] = "contrib"
 
+projects[rules][subdir] = "contrib"
+
 projects[search404][subdir] = "contrib"
 
 projects[shib_auth][type] = "module"
@@ -154,6 +162,12 @@ projects[taxonomy_entity_index][subdir] = "contrib"
 projects[taxonomy_entity_index][download][type] = "git"
 projects[taxonomy_entity_index][download][branch] = "master"
 projects[taxonomy_entity_index][download][url] = "https://github.com/ASCTech/taxonomy_entity_index.git"
+
+projects[tabsnomore][type] = "module"
+projects[tabsnomore][subdir] = "custom"
+projects[tabsnomore][download][type] = "git"
+projects[tabsnomore][download][branch] = "master"
+projects[tabsnomore][download][url] = "http://git.drupal.org/sandbox/onkeltem/1730244.git"
 
 projects[tvi][subdir] = "contrib"
 projects[tvi][patch][] = "http://drupal.org/files/tvi-get_term_info-1547340-2_0.patch"
