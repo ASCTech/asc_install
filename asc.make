@@ -170,8 +170,6 @@ projects[tabsnomore][download][branch] = "master"
 projects[tabsnomore][download][url] = "http://git.drupal.org/sandbox/onkeltem/1730244.git"
 
 projects[tvi][subdir] = "contrib"
-projects[tvi][patch][] = "http://drupal.org/files/tvi-get_term_info-1547340-2_0.patch"
-projects[tvi][patch][] = "http://drupal.org/files/tvi-use-variable-table-1585350-15.patch"
 
 projects[uuid][subdir] = "contrib"
 
