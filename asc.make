@@ -63,7 +63,7 @@ projects[galleryformatter][patch][] = "https://raw.github.com/ASCTech/drush_make
 
 projects[google_analytics][subdir] = "contrib"
 
-projects[imagefield_crop][subdir] = "contrib"
+;projects[imagefield_crop][subdir] = "contrib"
 
 projects[inspect][subdir] = "contrib"
 
