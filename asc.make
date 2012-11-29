@@ -39,7 +39,8 @@ projects[delta][subdir] = "contrib"
 projects[email][subdir] = "contrib"
 
 projects[date][subdir] = "contrib"
-projects[date][patch][] = https://raw.github.com/ASCTech/drush_make/master/patches/date-format-calendar-asc.patch
+;I can't remember why we needed to explicitly set date format
+;projects[date][patch][] = https://raw.github.com/ASCTech/drush_make/master/patches/date-format-calendar-asc.patch
 
 projects[ds][subdir] = "contrib"
 
