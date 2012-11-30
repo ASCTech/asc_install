@@ -208,7 +208,7 @@ projects[asc_egg][type] = "module"
 projects[asc_egg][subdir] = "custom"
 projects[asc_egg][download][type] = "git"
 projects[asc_egg][download][url] = "https://github.com/ASCTech/asc_egg_report.git"
-projects[asc_egg][download][branch] = "7.x-1.x"
+projects[asc_egg][download][branch] = "7.x-1.0"
 
 projects[asc_events][type] = "module"
 projects[asc_events][subdir] = "features"
