@@ -165,6 +165,7 @@ projects[views][subdir] = "contrib"
 
 projects[webform][subdir] = "contrib"
 projects[webform][version] = "4.0-alpha6"
+projects[webform][patch][] = https://raw.github.com/ASCTech/drush_make/master/patches/webform_override_login_link.patch
 
 projects[wysiwyg_button_order][subdir] = "contrib"
 
@@ -184,7 +185,7 @@ projects[asc_people][type] = "module"
 projects[asc_people][subdir] = "features"
 projects[asc_people][download][type] = "git"
 projects[asc_people][download][url] = "https://github.com/ASCTech/asc_people.git"
-projects[asc_people][download][branch] = "7.x-1.x"
+projects[asc_people][download][branch] = "7.x-1.0"
 
 projects[opic][type] = "module"
 projects[opic][subdir] = "custom"
@@ -275,6 +276,12 @@ projects[asc_auth][subdir] = "features"
 projects[asc_auth][download][type] = "git"
 projects[asc_auth][download][url] = "https://github.com/ASCTech/asc_auth.git"
 projects[asc_auth][download][branch] = "7.x-1.x"
+
+projects[asc_login_override][type] = "module"
+projects[asc_login_override][subdir] = "custom"
+projects[asc_login_override][download][type] = "git"
+projects[asc_login_override][download][url] = "https://github.com/ASCTech/asc_login_override.git"
+projects[asc_login_override][download][branch] = "7.x-1.x"
 
 projects[asc_users][type] = "module"
 projects[asc_users][subdir] = "custom"
