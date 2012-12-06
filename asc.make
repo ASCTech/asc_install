@@ -9,6 +9,8 @@ projects[addressfield][subdir] = "contrib"
 
 projects[admin][subdir] = "contrib"
 
+projects[auto_nodetitle][subdir] = "contrib"
+
 projects[block_class][subdir] = "contrib"
 projects[block_class][patch][] = "http://drupal.org/files/block_class-features_support-1230234-15.patch.patch"
 
@@ -130,6 +132,8 @@ projects[recaptcha][subdir] = "contrib"
 projects[rules][subdir] = "contrib"
 
 projects[search404][subdir] = "contrib"
+
+projects[signup][subdir] = "contrib"
 
 projects[shib_auth][type] = "module"
 projects[shib_auth][subdir] = "contrib"
