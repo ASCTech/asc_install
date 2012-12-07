@@ -299,6 +299,12 @@ projects[asc_webforms][download][type] = "git"
 projects[asc_webforms][download][url] = "https://github.com/ASCTech/asc_webforms.git"
 projects[asc_webforms][download][branch] = "7.x-1.x"
 
+projects[asc_workshops][type] = "module"
+projects[asc_workshops][subdir] = "features"
+projects[asc_workshops][download][type] = "git"
+projects[asc_workshops][download][url] = "https://github.com/ASCTech/asc_workshops.git"
+projects[asc_workshops][download][branch] = "7.x-1.x"
+
 projects[galleryformatter_advance][type] = "module"
 projects[galleryformatter_advance][subdir] = "custom"
 projects[galleryformatter_advance][download][type] = "git"
