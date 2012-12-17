@@ -54,6 +54,8 @@ projects[features][subdir] = "contrib"
 
 projects[features_extra][subdir] = "contrib"
 
+projects[feeds][subdir] = "contrib"
+
 projects[field_group][subdir] = "contrib"
 
 projects[form_builder][type] = "module"
