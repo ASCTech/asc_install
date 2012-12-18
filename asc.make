@@ -48,6 +48,8 @@ projects[ds][subdir] = "contrib"
 
 projects[entity][subdir] = "contrib"
 
+projects[entity_uri][subdir] = "contrib"
+
 projects[entityreference][subdir] = "contrib"
 
 projects[features][subdir] = "contrib"
@@ -73,6 +75,8 @@ projects[google_analytics][subdir] = "contrib"
 ;projects[imagefield_crop][subdir] = "contrib"
 
 projects[inspect][subdir] = "contrib"
+
+projects[job_scheduler][subdir] = "contrib"
 
 projects[jquery_plugin][subdir] = "contrib"
 
