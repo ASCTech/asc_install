@@ -144,6 +144,7 @@ projects[rules][subdir] = "contrib"
 projects[search404][subdir] = "contrib"
 
 projects[signup][subdir] = "contrib"
+projects[signup][patch][] = https://raw.github.com/ASCTech/drush_make/master/patches/signup_override_login_link.patch
 
 projects[shib_auth][type] = "module"
 projects[shib_auth][subdir] = "contrib"
