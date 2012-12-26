@@ -50,6 +50,8 @@ projects[entity][subdir] = "contrib"
 
 projects[entity_uri][subdir] = "contrib"
 
+projects[entity_path][subdir] = "contrib"
+
 projects[entityreference][subdir] = "contrib"
 
 projects[features][subdir] = "contrib"
