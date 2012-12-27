@@ -48,8 +48,6 @@ projects[ds][subdir] = "contrib"
 
 projects[entity][subdir] = "contrib"
 
-projects[entity_uri][subdir] = "contrib"
-
 projects[entity_path][subdir] = "contrib"
 
 projects[entityreference][subdir] = "contrib"
