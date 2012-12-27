@@ -167,7 +167,7 @@ projects[taxonomy_entity_index][download][branch] = "master"
 projects[taxonomy_entity_index][download][url] = "https://github.com/ASCTech/taxonomy_entity_index.git"
 
 projects[tabsnomore][type] = "module"
-projects[tabsnomore][subdir] = "custom"
+projects[tabsnomore][subdir] = "contrib"
 projects[tabsnomore][download][type] = "git"
 projects[tabsnomore][download][branch] = "master"
 projects[tabsnomore][download][url] = "http://git.drupal.org/sandbox/onkeltem/1730244.git"
