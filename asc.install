@@ -55,11 +55,6 @@ function asc_install() {
     ->condition('uid', '1')
     ->execute();
 
-  db_update('users')
-    ->fields(array('name' => 'croley.1', 'mail' => 'croley.2@osu.edu'))
-    ->condition('uid', '1')
-    ->execute();
-
 //Enable Blocks
   $blocks = array(
     array(
