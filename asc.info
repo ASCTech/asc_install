@@ -7,7 +7,6 @@ dependencies[] = block_titlelink
 dependencies[] = calendar
 dependencies[] = captcha
 dependencies[] = coder
-;dependencies[] = config_perms
 dependencies[] = context
 dependencies[] = contextual
 dependencies[] = ctools
@@ -29,6 +28,6 @@ dependencies[] = file
 dependencies[] = rdf
 
 dependencies[] = admin
-;dependencies[] = asc_news
+dependencies[] = asc_news
 ;dependencies[] = asc_image_handling
 
