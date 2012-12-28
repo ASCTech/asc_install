@@ -79,9 +79,9 @@ function asc_install() {
     ),
   );
   
-  $query = db_insert('block')->fields(array('module', 'delta', 'theme', 'status', 'weight', 'region', 'pages', 'cache'));
-  foreach ($blocks as $block) {
-    $query->values($block);
-  }
-  $query->execute();
+  //$query = db_insert('block')->fields(array('module', 'delta', 'theme', 'status', 'weight', 'region', 'pages', 'cache'));
+  //foreach ($blocks as $block) {
+  //  $query->values($block);
+  //}
+  //$query->execute();
 }
