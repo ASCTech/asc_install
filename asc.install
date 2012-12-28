@@ -79,7 +79,7 @@ function asc_install() {
       'asc_front'             => array('fe_block_settings'),
       'asc_news'              => array('fe_block_settings'),
       'asc_image_handling'    => array('fe_block_settings'),
-    )
+    ),
   );
 
 }
