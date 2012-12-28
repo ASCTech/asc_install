@@ -80,6 +80,6 @@ function asc_install() {
       'asc_news'              => array('fe_block_settings'),
       'asc_image_handling'    => array('fe_block_settings'),
     )
-  )
+  );
 
 }
