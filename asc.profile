@@ -16,12 +16,3 @@ function asc_profile_details() {
   );
 }
 
-/**
- * Implements hook_profile_modules() {
- */
-function asc_profile_modules() {
-  return array(
-    'asc_front',
-  );
-}
-
