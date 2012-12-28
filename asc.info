@@ -30,5 +30,7 @@ dependencies[] = rdf
 dependencies[] = admin
 dependencies[] = asc_news
 dependencies[] = asc_front
+dependencies[] = asc_auth
+dependencies[] = asc_users
 ;dependencies[] = asc_image_handling
 
