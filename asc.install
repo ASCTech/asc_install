@@ -74,12 +74,6 @@ function asc_install() {
     ))
     ->execute();
 
-  features_revert(
-    array(
-      'asc_front'             => array('fe_block_settings'),
-      'asc_news'              => array('fe_block_settings'),
-      'asc_image_handling'    => array('fe_block_settings'),
-    ),
-  );
+  features_revert(array('asc_front' => array('fe_block_settings')));
 
 }
