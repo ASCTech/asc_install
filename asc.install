@@ -74,6 +74,7 @@ function asc_install() {
     ))
     ->execute();
 
-  features_revert(array('asc_front' => array('fe_block_settings')));
+  //won't work at this stage
+  //features_revert(array('asc_front' => array('fe_block_settings')));
 
 }
