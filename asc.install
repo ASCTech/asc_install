@@ -58,16 +58,6 @@ function asc_install() {
 //Enable Blocks
   $blocks = array(
     array(
-      'module'    =>  'system',
-      'delta'     =>  'main',
-      'theme'     =>  'q7',
-      'status'    =>  '1',
-      'weight'    =>  '0',
-      'region'    =>  'content',
-      'pages'     =>  '',
-      'cache'     =>  '-1',
-    ),
-    array(
       'module'    =>  'search',
       'delta'     =>  'form',
       'theme'     =>  'q7',
@@ -79,9 +69,9 @@ function asc_install() {
     ),
   );
   
-  //$query = db_insert('block')->fields(array('module', 'delta', 'theme', 'status', 'weight', 'region', 'pages', 'cache'));
-  //foreach ($blocks as $block) {
-  //  $query->values($block);
-  //}
-  //$query->execute();
+  $query = db_insert('block')->fields(array('module', 'delta', 'theme', 'status', 'weight', 'region', 'pages', 'cache'));
+  foreach ($blocks as $block) {
+    $query->values($block);
+  }
+  $query->execute();
 }
