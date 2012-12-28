@@ -10,7 +10,6 @@ dependencies[] = coder
 dependencies[] = context
 dependencies[] = contextual
 dependencies[] = ctools
-dependencies[] = help
 dependencies[] = image
 dependencies[] = list
 dependencies[] = menu
