@@ -22,28 +22,15 @@ function asc_install() {
   );
   module_disable($disable, TRUE);
 
-  // List of Modules to enable.
-  $enable = array(
-    'features',
-    'color',
-    'content_access',
-    'pathauto',
-    'piwik',
-    'piwik_reports',
-    'menu_block',
-    'special_menu_items',
-    'asc_image_handing',
-    'asc_news',
-    'asc_events',
-    'asc_auth',
-    'asc_front',
-    'asc_menu_block',
-  );
-  module_enable($enable, TRUE);
-
   // Setup default themes, disable others.
   variable_set("theme_default", "q7");
   variable_set("admin_theme", "seven");
+  variable_set("node_admin_theme", '1');
+  variable_set("asc_footer_address_1", '123 Derby Hall');
+  variable_set("asc_footer_city", 'Columbus');
+  variable_set("asc_footer_state", 'OH');
+  variable_set("asc_footer_zip", '43210');
+  variable_set("node_admin_theme", '1');
   variable_set("node_admin_theme", '1');
   variable_set("site_frontpage", 'front');
   theme_enable(array("q7"));
