@@ -63,14 +63,14 @@ function asc_install() {
       'delta'     => 'form',
     ))
     ->fields(array(
-      'module', 
-      'delta', 
-      'theme', 
-      'status', 
-      'weight', 
-      'region', 
-      'pages', 
-      'cache',
+      'module'    => 'search',
+      'delta'     => 'form',
+      'theme'     => 'q7',
+      'status'    => '1',
+      'weight'    => '0',
+      'region'    => 'footer_second',
+      'pages'     => '',
+      'cache'     => '-1',
     ))
     ->execute();
 }
