@@ -56,22 +56,21 @@ function asc_install() {
     ->execute();
 
 //Enable Blocks
-  $blocks = array(
-    array(
-      'module'    =>  'search',
-      'delta'     =>  'form',
-      'theme'     =>  'q7',
-      'status'    =>  '1',
-      'weight'    =>  '0',
-      'region'    =>  'footer_second',
-      'pages'     =>  '',
-      'cache'     =>  '-1',
-    ),
-  );
   
-  $query = db_merge('block')->fields(array('module', 'delta', 'theme', 'status', 'weight', 'region', 'pages', 'cache'));
-  foreach ($blocks as $block) {
-    $query->values($block);
-  }
-  $query->execute();
+  $query = db_merge('block')
+    ->key(array(
+      'module'    => 'search',
+      'delta'     => 'form',
+    ))
+    ->fields(array(
+      'module', 
+      'delta', 
+      'theme', 
+      'status', 
+      'weight', 
+      'region', 
+      'pages', 
+      'cache',
+    ))
+    ->execute();
 }
