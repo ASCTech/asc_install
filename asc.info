@@ -29,5 +29,6 @@ dependencies[] = rdf
 
 dependencies[] = admin
 dependencies[] = asc_news
+dependencies[] = asc_front
 ;dependencies[] = asc_image_handling
 
