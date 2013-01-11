@@ -21,8 +21,6 @@ projects[calendar][subdir] = "contrib"
 
 projects[captcha][subdir] = "contrib"
 
-projects[] = "coder"
-
 projects[commerce][subdir] = "contrib"
 
 ; Throwing a lot of errors, disabled for now.
@@ -279,7 +277,7 @@ projects[asc_people][type] = "module"
 projects[asc_people][subdir] = "features"
 projects[asc_people][download][type] = "git"
 projects[asc_people][download][url] = "https://github.com/ASCTech/asc_people.git"
-projects[asc_people][download][branch] = "7.x-1.0"
+projects[asc_people][download][branch] = "7.x-1.1"
 
 projects[asc_private_tutors][type] = "module"
 projects[asc_private_tutors][subdir] = "features"
