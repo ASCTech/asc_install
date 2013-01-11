@@ -297,6 +297,12 @@ projects[asc_rss][download][type] = "git"
 projects[asc_rss][download][url] = "https://github.com/ASCTech/asc_rss.git"
 projects[asc_rss][download][branch] = "7.x-1.0"
 
+projects[asc_scrollletter][type] = "module"
+projects[asc_scrollletter][subdir] = "custom"
+projects[asc_scrollletter][download][type] = "git"
+projects[asc_scrollletter][download][url] = "https://github.com/ASCTech/asc_scrollletter.git"
+projects[asc_scrollletter][download][branch] = "7.x-1.0"
+
 projects[asc_socialmedia][type] = "module"
 projects[asc_socialmedia][subdir] = "custom"
 projects[asc_socialmedia][download][type] = "git"
