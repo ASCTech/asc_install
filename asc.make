@@ -61,8 +61,7 @@ projects[field_group][subdir] = "contrib"
 projects[form_builder][type] = "module"
 
 projects[file_entity][subdir] = "contrib"
-projects[file_entity][version] = "2.0-unstable6"
-projects[file_entity][patch][] = https://raw.github.com/ASCTech/drush_make/master/patches/file-entity_asc-template.patch
+projects[file_entity][version] = "2.0-unstable7"
 
 projects[galleryformatter][subdir] = "contrib"
 projects[galleryformatter][version] = "1.x-dev"
@@ -101,10 +100,9 @@ projects[markdown][subdir] = "contrib"
 projects[masquerade][subdir] = "contrib"
 
 projects[media][subdir] = "contrib"
-projects[media][version] = "2.0-unstable6"
+projects[media][version] = "2.0-unstable7"
 ;Redirect to node event form.
 projects[media][patch][] = "http://drupal.org/files/1426730-edit-file-in-browser-43.patch"
-projects[media][patch][] = "https://raw.github.com/ASCTech/drush_make/master/patches/media_alt_and_title-1307054-17_asc-custom.patch"
 projects[media][patch][] = "https://raw.github.com/ASCTech/drush_make/master/patches/media_remove_library_link.patch"
 
 projects[media_vimeo][subdir] = "contrib"
