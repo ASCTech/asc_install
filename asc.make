@@ -102,8 +102,6 @@ projects[masquerade][subdir] = "contrib"
 projects[media][subdir] = "contrib"
 projects[media][version] = "2.0-unstable7"
 ;Redirect to node event form.
-projects[media][patch][] = "http://drupal.org/files/1426730-edit-file-in-browser-43.patch"
-projects[media][patch][] = "https://raw.github.com/ASCTech/drush_make/master/patches/media_remove_library_link.patch"
 
 projects[media_vimeo][subdir] = "contrib"
 
