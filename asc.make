@@ -10,7 +10,7 @@ projects[addressfield][subdir] = "contrib"
 projects[admin][subdir] = "contrib"
 
 projects[auto_nodetitle][subdir] = "contrib"
-#Fix ' in title.
+;Fix ' in title.
 projects[auto_nodetitle][patch][] = "http://drupal.org/files/auto_nodetitle-dont_double_escape_titles-565922-21.patch"
 
 projects[block_class][subdir] = "contrib"
@@ -34,23 +34,25 @@ projects[context][subdir] = "contrib"
 
 projects[] = "ctools"
 
-projects[] = "devel"
-
-projects[delta][subdir] = "contrib"
-
-projects[email][subdir] = "contrib"
-
 projects[date][subdir] = "contrib"
 ;I can't remember why we needed to explicitly set date format
 ;projects[date][patch][] = https://raw.github.com/ASCTech/drush_make/master/patches/date-format-calendar-asc.patch
 
+projects[] = "devel"
+
+projects[delta][subdir] = "contrib"
+
 projects[ds][subdir] = "contrib"
+
+projects[email][subdir] = "contrib"
 
 projects[entity][subdir] = "contrib"
 
 projects[entity_path][subdir] = "contrib"
 
 projects[entityreference][subdir] = "contrib"
+
+projects[exclude_node_title][subdir] = "contrib"
 
 projects[features][subdir] = "contrib"
 
