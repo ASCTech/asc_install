@@ -10,6 +10,7 @@ dependencies[] = color
 dependencies[] = context
 dependencies[] = contextual
 dependencies[] = ctools
+dependencies[] = exclude_node_title
 dependencies[] = features
 dependencies[] = image
 dependencies[] = list
