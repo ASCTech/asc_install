@@ -32,7 +32,7 @@ projects[commerce][subdir] = "contrib"
 
 projects[context][subdir] = "contrib"
 
-projects[] = "ctools"
+projects[ctools][subdir] = "contrib"
 
 projects[date][subdir] = "contrib"
 ;I can't remember why we needed to explicitly set date format
@@ -48,13 +48,12 @@ projects[email][subdir] = "contrib"
 
 projects[entity][subdir] = "contrib"
 
-projects[entity_path][subdir] = "contrib"
-
 projects[entityreference][subdir] = "contrib"
 
 projects[exclude_node_title][subdir] = "contrib"
 
 projects[features][subdir] = "contrib"
+projects[features][version] = "2.0-beta1"
 
 projects[features_extra][subdir] = "contrib"
 
@@ -169,8 +168,6 @@ projects[tabsnomore][subdir] = "contrib"
 projects[tabsnomore][download][type] = "git"
 projects[tabsnomore][download][branch] = "master"
 projects[tabsnomore][download][url] = "http://git.drupal.org/sandbox/onkeltem/1730244.git"
-
-projects[tvi][subdir] = "contrib"
 
 projects[uuid][subdir] = "contrib"
 projects[uuid][patch][] = http://drupal.org/files/uuid.token_.inc-undefined-replacements.patch
