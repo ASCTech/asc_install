@@ -263,7 +263,7 @@ projects[asc_menu_block][download][branch] = "7.x-1.x"
 projects[asc_microsites][type] = "feature"
 projects[asc_microsites][subdir] = "custom"
 projects[asc_microsites][download][type] = "git"
-projects[asc_mirosites][download][url] = "https://github.com/ASCTech/asc_microsites.git"
+projects[asc_microsites][download][url] = "https://github.com/ASCTech/asc_microsites.git"
 projects[asc_mircosites][download][branch] = "7.x-1.0"
 
 projects[asc_news][type] = "module"
