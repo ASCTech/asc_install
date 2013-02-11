@@ -23,6 +23,8 @@ projects[calendar][subdir] = "contrib"
 
 projects[captcha][subdir] = "contrib"
 
+projects[color_field][subdir] = "contrib"
+
 projects[commerce][subdir] = "contrib"
 
 ; Throwing a lot of errors, disabled for now.
@@ -38,7 +40,7 @@ projects[date][subdir] = "contrib"
 ;I can't remember why we needed to explicitly set date format
 ;projects[date][patch][] = https://raw.github.com/ASCTech/drush_make/master/patches/date-format-calendar-asc.patch
 
-projects[] = "devel"
+projects[devel[subdir]] = "contrib"
 
 projects[delta][subdir] = "contrib"
 
@@ -257,6 +259,12 @@ projects[asc_menu_block][subdir] = "custom"
 projects[asc_menu_block][download][type] = "git"
 projects[asc_menu_block][download][url] = "https://github.com/ASCTech/asc_menu_block.git"
 projects[asc_menu_block][download][branch] = "7.x-1.x"
+
+projects[asc_microsites][type] = "feature"
+projects[asc_microsites][subdir] = "custom"
+projects[asc_microsites][download][type] = "git"
+projects[asc_mirosites][download][url] = "https://github.com/ASCTech/asc_microsites.git"
+projects[asc_mircosites][download][branch] = "7.x-1.0"
 
 projects[asc_news][type] = "module"
 projects[asc_news][subdir] = "features"
