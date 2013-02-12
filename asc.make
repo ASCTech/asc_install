@@ -76,6 +76,10 @@ projects[google_analytics][subdir] = "contrib"
 
 ;projects[imagefield_crop][subdir] = "contrib"
 
+projects[imce][subdir] = "contrib"
+
+projects[imce_wysiwyg][subdir] = "contrib"
+
 projects[inspect][subdir] = "contrib"
 
 projects[job_scheduler][subdir] = "contrib"
@@ -109,6 +113,7 @@ projects[media][version] = "2.0-unstable7"
 ;Redirect to node event form.
 
 projects[media_vimeo][subdir] = "contrib"
+projects[media][version] = "2.x-dev"
 
 projects[media_youtube][subdir] = "contrib"
 
