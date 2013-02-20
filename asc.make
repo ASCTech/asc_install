@@ -67,6 +67,7 @@ projects[form_builder][type] = "module"
 
 projects[file_entity][subdir] = "contrib"
 projects[file_entity][version] = "2.0-unstable7"
+projects[file_entity][patch][] = "https://raw.github.com/ASCTech/drush_make/master/patches/file-entity_ASC-customizations.patch"
 
 projects[galleryformatter][subdir] = "contrib"
 projects[galleryformatter][version] = "1.x-dev"
