@@ -77,10 +77,6 @@ projects[google_analytics][subdir] = "contrib"
 
 ;projects[imagefield_crop][subdir] = "contrib"
 
-projects[imce][subdir] = "contrib"
-
-projects[imce_wysiwyg][subdir] = "contrib"
-
 projects[inspect][subdir] = "contrib"
 
 projects[job_scheduler][subdir] = "contrib"
