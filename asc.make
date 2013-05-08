@@ -175,7 +175,6 @@ projects[tabsnomore][download][branch] = "master"
 projects[tabsnomore][download][url] = "http://git.drupal.org/sandbox/onkeltem/1730244.git"
 
 projects[uuid][subdir] = "contrib"
-projects[uuid][patch][] = http://drupal.org/files/uuid.token_.inc-undefined-replacements.patch
 
 projects[views][subdir] = "contrib"
 
