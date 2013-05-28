@@ -133,9 +133,9 @@ projects[pathauto][subdir] = "contrib"
 
 projects[performance][subdir] = "contrib"
 
-projects[phone][subdir] = "contrib"
+#projects[phone][subdir] = "contrib"
 
-projects[piwik][subdir] = "contrib"
+#projects[piwik][subdir] = "contrib"
 
 projects[piwik_reports][subdir] = "contrib"
 
