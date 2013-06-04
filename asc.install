@@ -12,7 +12,7 @@
  */
 function asc_install() {
   include_once DRUPAL_ROOT . '/profiles/minimal/minimal.install';
-  minimal_install();
+  // minimal_install();
 
   // List of Modules to disable.
   $disable = array(
