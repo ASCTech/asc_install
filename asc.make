@@ -110,7 +110,7 @@ projects[media][version] = "2.0-unstable7"
 ;Redirect to node event form.
 
 projects[media_vimeo][subdir] = "contrib"
-projects[media_youtube][version] = "2.x-dev"
+projects[media_vimeo][version] = "2.x-dev"
 
 projects[media_youtube][subdir] = "contrib"
 projects[media_youtube][version] = "2.x-dev"
