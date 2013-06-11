@@ -67,7 +67,7 @@ projects[field_group][subdir] = "contrib"
 projects[form_builder][type] = "module"
 
 projects[file_entity][subdir] = "contrib"
-projects[file_entity][version] = 2.x-dev"
+projects[file_entity][version] = "2.x-dev"
 projects[file_entity][patch][] = "https://raw.github.com/ASCTech/drush_make/master/patches/file-entity_ASC-customizations.patch"
 
 projects[galleryformatter][subdir] = "contrib"
