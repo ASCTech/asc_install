@@ -67,7 +67,7 @@ projects[field_group][subdir] = "contrib"
 projects[form_builder][type] = "module"
 
 projects[file_entity][subdir] = "contrib"
-projects[file_entity][version] = "2.x-dev"
+projects[file_entity][version] = "2.x-unstable7"
 projects[file_entity][patch][] = "https://raw.github.com/ASCTech/drush_make/master/patches/file-entity_ASC-customizations.patch"
 
 projects[galleryformatter][subdir] = "contrib"
@@ -107,7 +107,7 @@ projects[markdown][subdir] = "contrib"
 projects[masquerade][subdir] = "contrib"
 
 projects[media][subdir] = "contrib"
-projects[media][version] = "2.x-dev"
+projects[media][version] = "2.x-unstable7"
 ;Redirect to node event form.
 
 projects[media_vimeo][subdir] = "contrib"
