@@ -107,7 +107,7 @@ projects[markdown][subdir] = "contrib"
 projects[masquerade][subdir] = "contrib"
 
 projects[media][subdir] = "contrib"
-projects[media][version] = "2.0-unstable7"
+projects[media][version] = "2.x-dev"
 ;Redirect to node event form.
 
 projects[media_vimeo][subdir] = "contrib"
