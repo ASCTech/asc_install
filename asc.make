@@ -115,7 +115,7 @@ projects[media_vimeo][version] = "2.x-dev"
 
 projects[media_youtube][subdir] = "contrib"
 projects[media_youtube][version] = "2.x-dev"
-projects[media_youtube][patch][] = "https://github.com/ASCTech/drush_make/blob/master/patches/media_youtube_mimetype_addition.patch"
+projects[media_youtube][patch][] = "https://raw.github.com/ASCTech/drush_make/master/patches/media_youtube_mimetype_addition.patch"
 
 projects[menu_block][subdir] = "contrib"
 
