@@ -280,7 +280,7 @@ projects[opic][type] = "module"
 projects[opic][subdir] = "custom"
 projects[opic][download][type] = "git"
 projects[opic][download][url] = "https://github.com/ASCTech/drupal_opic.git"
-projects[opic][download][branch] = "7.x-1.0"
+projects[opic][download][branch] = "7.x-2.x"
 
 projects[asc_people][type] = "module"
 projects[asc_people][subdir] = "features"
