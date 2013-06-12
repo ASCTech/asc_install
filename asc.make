@@ -14,8 +14,9 @@ projects[auto_nodetitle][subdir] = "contrib"
 projects[auto_nodetitle][patch][] = "https://raw.github.com/ASCTech/drush_make/master/patches/auto_nodetitle-dont_double_escape_titles-565922-21.patch"
 
 projects[block_class][subdir] = "contrib"
-projects[block_class][version] = "1.2"
-projects[block_class][patch][] = "http://drupal.org/files/block_class-features_support-1230234-15.patch.patch"
+projects[block_class][version] = "2.0"
+# projects[block_class][patch][] = "http://drupal.org/files/block_class-features_support-1230234-15.patch.patch"
+projects[block_class][patch][] = "https://raw.github.com/ASCTech/drush_make/master/patches/block-class-remove-updates-7100-7101.patch"
 
 projects[block_titlelink][subdir] = "contrib"
 
