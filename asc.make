@@ -344,6 +344,7 @@ projects[asc_workshops][download][branch] = "7.x-1.x"
 
 ;Themes
 projects[omega][type] = "theme"
+projects[omega][version] = "3.1"
 
 ;Libraries
 ; jQuery UI
