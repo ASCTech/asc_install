@@ -179,6 +179,9 @@ projects[tabsnomore][download][url] = "http://git.drupal.org/sandbox/onkeltem/17
 
 projects[uuid][subdir] = "contrib"
 
+projects[view_unpublished][subdir] = "contrib"
+projects[view_unpublished][version] = "7.x-1.1"
+
 projects[views][subdir] = "contrib"
 
 projects[webform][subdir] = "contrib"
