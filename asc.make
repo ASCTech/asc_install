@@ -183,6 +183,8 @@ projects[uuid][subdir] = "contrib"
 projects[view_unpublished][subdir] = "contrib"
 projects[view_unpublished][version] = "1.1"
 
+projects[views_bulk_operations][subdir] = "contrib"
+
 projects[views][subdir] = "contrib"
 
 projects[webform][subdir] = "contrib"
