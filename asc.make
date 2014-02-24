@@ -253,6 +253,12 @@ projects[asc_image_handling][download][type] = "git"
 projects[asc_image_handling][download][url] = "https://github.com/ASCTech/asc_image_handling.git"
 projects[asc_image_handling][download][branch] = "7.x-1.0"
 
+projects[asc_kmdata][type] = "module"
+projects[asc_kmdata][subdir] = "features"
+projects[asc_kmdata][download][type] = "git"
+projects[asc_kmdata][download][url] = "https://github.com/ASCTech/asc_kmdata.git"
+projects[asc_kmdata][download][branch] = "master"
+
 projects[asc_microsites][type] = "module"
 projects[asc_microsites][subdir] = "features"
 projects[asc_microsites][download][type] = "git"
