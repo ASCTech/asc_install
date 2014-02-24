@@ -235,6 +235,12 @@ projects[asc_events][download][type] = "git"
 projects[asc_events][download][url] = "https://github.com/ASCTech/asc_events.git"
 projects[asc_events][download][branch] = "7.x-1.0"
 
+projects[asc_exhibitions][type] = "module"
+projects[asc_exhibitions][subdir] = "features"
+projects[asc_exhibitions][download][type] = "git"
+projects[asc_exhibitions][download][url] = "https://code.osu.edu/asctech/asc_exhibitions.git"
+projects[asc_exhibitions][download][branch] = "master"
+
 projects[asc_front][type] = "module"
 projects[asc_front][subdir] = "features"
 projects[asc_front][download][type] = "git"
