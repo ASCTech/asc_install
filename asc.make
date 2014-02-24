@@ -1,7 +1,10 @@
 core = 7.x
 api = 2
 
+
+
 ; Contrib
+; ============================================================
 
 projects[acl][subdir] = "contrib"
 
@@ -199,7 +202,11 @@ projects[wysiwyg][subdir] = "contrib"
 
 projects[xmlsitemap][subdir] = "contrib"
 
+
+
 ;Custom
+; ============================================================
+
 projects[asc_auth][type] = "module"
 projects[asc_auth][subdir] = "features"
 projects[asc_auth][download][type] = "git"
@@ -344,11 +351,19 @@ projects[asc_workshops][download][type] = "git"
 projects[asc_workshops][download][url] = "https://github.com/ASCTech/asc_workshops.git"
 projects[asc_workshops][download][branch] = "7.x-1.x"
 
+
+
 ;Themes
+; ============================================================
+
 projects[omega][type] = "theme"
 projects[omega][version] = "3.1"
 
+
+
 ;Libraries
+; ============================================================
+
 ; jQuery UI
 libraries[jquery_ui][download][type] = "get"
 libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery-ui-1.7.zip"
@@ -365,7 +380,11 @@ libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEd
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
 
+
+
 ;Themes
+; ============================================================
+
 projects[q7][type] = "theme"
 projects[q7][download][type] = "git"
 projects[q7][download][url] = "http://github.com/ASCTech/q7.git"
