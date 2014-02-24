@@ -202,7 +202,7 @@ projects[xmlsitemap][subdir] = "contrib"
 
 
 
-;Custom
+; Features
 ; ============================================================
 
 projects[asc_auth][type] = "module"
@@ -217,35 +217,17 @@ projects[asc_blog][download][type] = "git"
 projects[asc_blog][download][url] = "https://github.com/ASCTech/asc_blog.git"
 projects[asc_blog][download][branch] = "7.x-1.0"
 
-projects[asc_breadcrumbs][type] = "module"
-projects[asc_breadcrumbs][subdir] = "custom"
-projects[asc_breadcrumbs][download][type] = "git"
-projects[asc_breadcrumbs][download][url] = "https://github.com/ASCTech/asc_breadcrumbs.git"
-projects[asc_breadcrumbs][download][branch] = "7.x-1.0"
-
 projects[asc_devel][type] = "module"
 projects[asc_devel][subdir] = "features"
 projects[asc_devel][download][type] = "git"
 projects[asc_devel][download][url] = "https://github.com/ASCTech/asc_devel.git"
 projects[asc_devel][download][branch] = "7.x-1.0"
 
-projects[asc_egg][type] = "module"
-projects[asc_egg][subdir] = "custom"
-projects[asc_egg][download][type] = "git"
-projects[asc_egg][download][url] = "https://github.com/ASCTech/asc_egg_report.git"
-projects[asc_egg][download][branch] = "7.x-1.0"
-
 projects[asc_events][type] = "module"
 projects[asc_events][subdir] = "features"
 projects[asc_events][download][type] = "git"
 projects[asc_events][download][url] = "https://github.com/ASCTech/asc_events.git"
 projects[asc_events][download][branch] = "7.x-1.0"
-
-projects[asc_footer][type] = "module"
-projects[asc_footer][subdir] = "custom"
-projects[asc_footer][download][type] = "git"
-projects[asc_footer][download][url] = "https://github.com/ASCTech/asc_footer.git"
-projects[asc_footer][download][branch] = "7.x-1.0"
 
 projects[asc_front][type] = "module"
 projects[asc_front][subdir] = "features"
@@ -259,18 +241,6 @@ projects[asc_image_handling][download][type] = "git"
 projects[asc_image_handling][download][url] = "https://github.com/ASCTech/asc_image_handling.git"
 projects[asc_image_handling][download][branch] = "7.x-1.0"
 
-projects[asc_login_override][type] = "module"
-projects[asc_login_override][subdir] = "custom"
-projects[asc_login_override][download][type] = "git"
-projects[asc_login_override][download][url] = "https://github.com/ASCTech/asc_login_override.git"
-projects[asc_login_override][download][branch] = "7.x-1.0"
-
-projects[asc_menu_block][type] = "module"
-projects[asc_menu_block][subdir] = "custom"
-projects[asc_menu_block][download][type] = "git"
-projects[asc_menu_block][download][url] = "https://github.com/ASCTech/asc_menu_block.git"
-projects[asc_menu_block][download][branch] = "7.x-1.x"
-
 projects[asc_microsites][type] = "module"
 projects[asc_microsites][subdir] = "features"
 projects[asc_microsites][download][type] = "git"
@@ -282,12 +252,6 @@ projects[asc_news][subdir] = "features"
 projects[asc_news][download][type] = "git"
 projects[asc_news][download][url] = "https://github.com/ASCTech/asc_news.git"
 projects[asc_news][download][branch] = "7.x-1.0"
-
-projects[opic][type] = "module"
-projects[opic][subdir] = "custom"
-projects[opic][download][type] = "git"
-projects[opic][download][url] = "https://github.com/ASCTech/drupal_opic.git"
-projects[opic][download][branch] = "7.x-2.1"
 
 projects[asc_people][type] = "module"
 projects[asc_people][subdir] = "features"
@@ -306,6 +270,59 @@ projects[asc_prod][subdir] = "features"
 projects[asc_prod][download][type] = "git"
 projects[asc_prod][download][url] = "https://github.com/ASCTech/asc_prod.git"
 projects[asc_prod][download][branch] = "7.x-1.0"
+
+projects[asc_webforms][type] = "module"
+projects[asc_webforms][subdir] = "features"
+projects[asc_webforms][download][type] = "git"
+projects[asc_webforms][download][url] = "https://github.com/ASCTech/asc_webforms.git"
+projects[asc_webforms][download][branch] = "7.x-1.0"
+
+projects[asc_workshops][type] = "module"
+projects[asc_workshops][subdir] = "features"
+projects[asc_workshops][download][type] = "git"
+projects[asc_workshops][download][url] = "https://github.com/ASCTech/asc_workshops.git"
+projects[asc_workshops][download][branch] = "7.x-1.x"
+
+
+
+;Custom
+; ============================================================
+
+projects[asc_breadcrumbs][type] = "module"
+projects[asc_breadcrumbs][subdir] = "custom"
+projects[asc_breadcrumbs][download][type] = "git"
+projects[asc_breadcrumbs][download][url] = "https://github.com/ASCTech/asc_breadcrumbs.git"
+projects[asc_breadcrumbs][download][branch] = "7.x-1.0"
+
+projects[asc_egg][type] = "module"
+projects[asc_egg][subdir] = "custom"
+projects[asc_egg][download][type] = "git"
+projects[asc_egg][download][url] = "https://github.com/ASCTech/asc_egg_report.git"
+projects[asc_egg][download][branch] = "7.x-1.0"
+
+projects[asc_footer][type] = "module"
+projects[asc_footer][subdir] = "custom"
+projects[asc_footer][download][type] = "git"
+projects[asc_footer][download][url] = "https://github.com/ASCTech/asc_footer.git"
+projects[asc_footer][download][branch] = "7.x-1.0"
+
+projects[asc_login_override][type] = "module"
+projects[asc_login_override][subdir] = "custom"
+projects[asc_login_override][download][type] = "git"
+projects[asc_login_override][download][url] = "https://github.com/ASCTech/asc_login_override.git"
+projects[asc_login_override][download][branch] = "7.x-1.0"
+
+projects[asc_menu_block][type] = "module"
+projects[asc_menu_block][subdir] = "custom"
+projects[asc_menu_block][download][type] = "git"
+projects[asc_menu_block][download][url] = "https://github.com/ASCTech/asc_menu_block.git"
+projects[asc_menu_block][download][branch] = "7.x-1.x"
+
+projects[opic][type] = "module"
+projects[opic][subdir] = "custom"
+projects[opic][download][type] = "git"
+projects[opic][download][url] = "https://github.com/ASCTech/drupal_opic.git"
+projects[opic][download][branch] = "7.x-2.1"
 
 projects[asc_rss][type] = "module"
 projects[asc_rss][subdir] = "custom"
@@ -337,18 +354,6 @@ projects[asc_users][download][type] = "git"
 projects[asc_users][download][url] = "https://github.com/ASCTech/asc_users.git"
 projects[asc_users][download][branch] = "7.x-1.0"
 
-projects[asc_webforms][type] = "module"
-projects[asc_webforms][subdir] = "features"
-projects[asc_webforms][download][type] = "git"
-projects[asc_webforms][download][url] = "https://github.com/ASCTech/asc_webforms.git"
-projects[asc_webforms][download][branch] = "7.x-1.0"
-
-projects[asc_workshops][type] = "module"
-projects[asc_workshops][subdir] = "features"
-projects[asc_workshops][download][type] = "git"
-projects[asc_workshops][download][url] = "https://github.com/ASCTech/asc_workshops.git"
-projects[asc_workshops][download][branch] = "7.x-1.x"
-
 
 
 ;Themes
@@ -356,6 +361,11 @@ projects[asc_workshops][download][branch] = "7.x-1.x"
 
 projects[omega][type] = "theme"
 projects[omega][version] = "3.1"
+
+projects[q7][type] = "theme"
+projects[q7][download][type] = "git"
+projects[q7][download][url] = "http://github.com/ASCTech/q7.git"
+projects[q7][download][branch] = "7.x-1.1"
 
 
 
@@ -379,13 +389,5 @@ libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
 
 
-
-;Themes
-; ============================================================
-
-projects[q7][type] = "theme"
-projects[q7][download][type] = "git"
-projects[q7][download][url] = "http://github.com/ASCTech/q7.git"
-projects[q7][download][branch] = "7.x-1.1"
 
 projects[drupal][type] = "core"
