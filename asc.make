@@ -318,6 +318,12 @@ projects[asc_breadcrumbs][download][type] = "git"
 projects[asc_breadcrumbs][download][url] = "https://github.com/ASCTech/asc_breadcrumbs.git"
 projects[asc_breadcrumbs][download][branch] = "7.x-1.0"
 
+projects[asc_commerce_cybersource_sasop][type] = "module"
+projects[asc_commerce_cybersource_sasop][subdir] = "custom"
+projects[asc_commerce_cybersource_sasop][download][type] = "git"
+projects[asc_commerce_cybersource_sasop][download][url] = "https://github.com/ASCTech/asc_commerce_cybersource_sasop.git"
+projects[asc_commerce_cybersource_sasop][download][branch] = "master"
+
 projects[asc_egg][type] = "module"
 projects[asc_egg][subdir] = "custom"
 projects[asc_egg][download][type] = "git"
