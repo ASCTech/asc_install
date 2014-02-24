@@ -400,7 +400,7 @@ projects[omega][version] = "3.1"
 
 projects[q7][type] = "theme"
 projects[q7][download][type] = "git"
-projects[q7][download][url] = "http://github.com/ASCTech/q7.git"
+projects[q7][download][url] = "https://github.com/ASCTech/q7.git"
 projects[q7][download][branch] = "7.x-1.1"
 
 
