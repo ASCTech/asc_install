@@ -1,6 +1,6 @@
 name = ASC
 description = Profile for ASC Standard sites.
-version = 7.x-1.0
+version = VERSION
 core = 7.x
 dependencies[] = block
 dependencies[] = block_titlelink
