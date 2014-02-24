@@ -217,6 +217,12 @@ projects[asc_blog][download][type] = "git"
 projects[asc_blog][download][url] = "https://github.com/ASCTech/asc_blog.git"
 projects[asc_blog][download][branch] = "7.x-1.0"
 
+projects[asc_commerce][type] = "module"
+projects[asc_commerce][subdir] = "features"
+projects[asc_commerce][download][type] = "git"
+projects[asc_commerce][download][url] = "https://github.com/ASCTech/asc_commerce.git"
+projects[asc_commerce][download][branch] = "master"
+
 projects[asc_devel][type] = "module"
 projects[asc_devel][subdir] = "features"
 projects[asc_devel][download][type] = "git"
