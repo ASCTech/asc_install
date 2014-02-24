@@ -16,6 +16,8 @@ projects[auto_nodetitle][subdir] = "contrib"
 ;Fix ' in title.
 projects[auto_nodetitle][patch][] = "https://raw.github.com/ASCTech/drush_make/master/patches/auto_nodetitle-dont_double_escape_titles-565922-21.patch"
 
+projects[better_exposed_filters][subdir] = "contrib"
+
 projects[block_class][subdir] = "contrib"
 projects[block_class][version] = "2.1"
 
@@ -209,7 +211,7 @@ projects[asc_auth][type] = "module"
 projects[asc_auth][subdir] = "features"
 projects[asc_auth][download][type] = "git"
 projects[asc_auth][download][url] = "https://github.com/ASCTech/asc_auth.git"
-projects[asc_auth][download][branch] = "7.x-1.0"
+projects[asc_auth][download][branch] = "7.x-1.1"
 
 projects[asc_blog][type] = "module"
 projects[asc_blog][subdir] = "features"
