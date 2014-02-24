@@ -58,7 +58,7 @@ projects[entityreference][subdir] = "contrib"
 projects[exclude_node_title][subdir] = "contrib"
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "2.0-beta1"
+projects[features][version] = "2.0"
 
 projects[features_extra][subdir] = "contrib"
 
