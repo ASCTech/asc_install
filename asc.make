@@ -213,7 +213,7 @@ projects[asc_auth][type] = "module"
 projects[asc_auth][subdir] = "features"
 projects[asc_auth][download][type] = "git"
 projects[asc_auth][download][url] = "https://github.com/ASCTech/asc_auth.git"
-projects[asc_auth][download][branch] = "7.x-1.1"
+projects[asc_auth][download][branch] = "7.x-1.x"
 
 projects[asc_blog][type] = "module"
 projects[asc_blog][subdir] = "features"
