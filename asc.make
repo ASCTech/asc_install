@@ -39,8 +39,6 @@ projects[context][subdir] = "contrib"
 projects[ctools][subdir] = "contrib"
 
 projects[date][subdir] = "contrib"
-;I can't remember why we needed to explicitly set date format
-;projects[date][patch][] = https://raw.github.com/ASCTech/drush_make/master/patches/date-format-calendar-asc.patch
 
 projects[devel[subdir]] = "contrib"
 
@@ -371,6 +369,6 @@ libraries[ckeditor][destination] = "libraries"
 projects[q7][type] = "theme"
 projects[q7][download][type] = "git"
 projects[q7][download][url] = "http://github.com/ASCTech/q7.git"
-projects[q7][download][branch] = "7.x-1.0"
+projects[q7][download][branch] = "7.x-1.1"
 
 projects[drupal][type] = "core"
