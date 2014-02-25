@@ -90,9 +90,9 @@ projects[jquery_ui][subdir] = "contrib"
 
 projects[jquery_update][subdir] = "contrib"
 
-;projects[km][type] = "module"
-;projects[km][subdir] = "contrib"
-;projects[km][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+# projects[km][type] = "module"
+# projects[km][subdir] = "contrib"
+# projects[km][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 
 projects[] = "libraries"
 
@@ -107,6 +107,8 @@ projects[location][subdir] = "contrib"
 projects[markdown][subdir] = "contrib"
 
 projects[masquerade][subdir] = "contrib"
+
+projects[mathjax][subdir] = "contrib"
 
 projects[media][subdir] = "contrib"
 projects[media][version] = "2.0-unstable7"
