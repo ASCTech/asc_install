@@ -257,6 +257,8 @@ projects[uuid][version] = "1.0-alpha5"
 projects[views][subdir] = "profiles/asc/modules/contrib/views"
 projects[views][version] = "3.8"
 
+projects[views_bulk_operations][subdir] = "contrib"
+
 projects[webform][subdir] = "profiles/asc/modules/contrib/webform"
 projects[webform][version] = "4.0-rc4"
 
