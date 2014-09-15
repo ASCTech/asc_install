@@ -274,6 +274,12 @@ projects[q7][subdir] = "profiles/asc/themes/q7"
 projects[q7][version] = "unknown"
 
 ; Modules
+projects[asc_breadcrumbs][download][type] = "git"
+projects[asc_breadcrumbs][download][url] = "https://github.com/ASCTech/asc_breadcrumbs.git"
+projects[asc_breadcrumbs][download][branch] = "7.x-1.x"
+projects[asc_breadcrumbs][subdir] = "profiles/asc/modules/custom/asc_courses"
+projects[asc_breadcrumbs][type] = "module"
+
 projects[asc_courses][download][type] = "git"
 projects[asc_courses][download][url] = "https://github.com/ASCTech/asc_courses.git"
 projects[asc_courses][download][branch] = "master"
