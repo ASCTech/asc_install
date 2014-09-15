@@ -203,6 +203,8 @@ projects[markdown][version] = "1.2"
 projects[masquerade][subdir] = "profiles/asc/modules/contrib/masquerade"
 projects[masquerade][version] = "1.0-rc7"
 
+projects[mathjax][subdir] = "contrib"
+
 projects[media][subdir] = "profiles/asc/modules/contrib/media"
 projects[media][version] = "2.0-unstable7"
 
