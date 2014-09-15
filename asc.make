@@ -43,7 +43,7 @@ projects[asc_footer][type] = "module"
 
 projects[asc_commerce][download][type] = "git"
 projects[asc_commerce][download][url] = "https://github.com/ASCTech/asc_commerce.git"
-projects[asc_commerce][download][branch] = "7.x-1.0"
+projects[asc_commerce][download][branch] = "master"
 projects[asc_commerce][type] = "module"
 projects[asc_commerce][subdir] = "profiles/asc/modules/features/asc_commerce"
 projects[asc_commerce][version] = "1.0"
