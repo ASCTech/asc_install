@@ -151,9 +151,6 @@ projects[rules][subdir] = "contrib"
 
 projects[search404][subdir] = "contrib"
 
-projects[signup][subdir] = "contrib"
-projects[signup][patch][] = https://raw.github.com/ASCTech/drush_make/master/patches/signup_override_login_link.patch
-
 projects[shib_auth][type] = "module"
 projects[shib_auth][subdir] = "contrib"
 
@@ -377,6 +374,12 @@ projects[asc_scrollletter][subdir] = "custom"
 projects[asc_scrollletter][download][type] = "git"
 projects[asc_scrollletter][download][url] = "https://github.com/ASCTech/asc_scrollletter.git"
 projects[asc_scrollletter][download][branch] = "7.x-1.0"
+
+projects[asc_signup][type] = "module"
+projects[asc_signup][subdir] = "custom"
+projects[asc_signup][download][type] = "git"
+projects[asc_signup][download][branch] = "7.x-1.0"
+projects[asc_signup][patch][] = https://raw.github.com/ASCTech/drush_make/master/patches/signup_override_login_link.patch
 
 projects[asc_socialmedia][type] = "module"
 projects[asc_socialmedia][subdir] = "custom"
